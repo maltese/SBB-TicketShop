@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>sectionName</key>
+		<string>Date</string>
+		<key>content</key>
+		<array>
+			<string></string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>sectionName</key>
+		<string>Journey</string>
+		<key>content</key>
+		<array>
+			<string>One Way</string>
+			<string>Round Trip</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>sectionName</key>
+		<string>Class</string>
+		<key>content</key>
+		<array>
+			<string>First</string>
+			<string>Second</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>sectionName</key>
+		<string>Fare</string>
+		<key>content</key>
+		<array>
+			<string>Full-Fare</string>
+			<string>Half-Fare</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>sectionName</key>
+		<string> </string>
+		<key>content</key>
+		<array>
+			<string>Timetable</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>sectionName</key>
+		<string></string>
+		<key>content</key>
+		<array>
+			<string>Save as 1-Tap Ticket</string>
+		</array>
+	</dict>
+</array>
+</plist>

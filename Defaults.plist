@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TabBarSelectionIndex</key>
+	<integer>1</integer>
+	<key>DeparturesTablesSwitchSelectionIndex</key>
+	<integer>1</integer>
+	<key>DestinationsTablesSwitchSelectionIndex</key>
+	<integer>0</integer>
+	<key>FavouriteDestinations</key>
+	<array/>
+	<key>OptionsTicketDirection</key>
+	<integer>1</integer>
+	<key>OptionsTicketClass</key>
+	<integer>0</integer>
+	<key>OptionsTicketFare</key>
+	<integer>0</integer>
+	<key>MyTickets</key>
+	<array/>
+	<key>1TapTickets</key>
+	<array/>
+</dict>
+</plist>

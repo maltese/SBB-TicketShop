@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* iTicketAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1009, 702}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 1086}";
+			sepNavWindowFrame = "{{15, 100}, {944, 773}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iTicketAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1009, 1136}}";
+			sepNavSelRange = "{1653, 0}";
+			sepNavVisRange = "{1001, 1252}";
+			sepNavWindowFrame = "{{86, 104}, {1068, 774}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iTicket */ = {
+		activeExec = 0;
+		executables = (
+			D15629B70E5779A400A0F1DF /* iTicket */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D15629B70E5779A400A0F1DF /* iTicket */;
+		activeSDKPreference = iphoneos2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iTicket */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iTicket */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = D15629BD0E5779C300A0F1DF /* Code sense */;
+		executables = (
+			D15629B70E5779A400A0F1DF /* iTicket */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					315,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					198,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 254928824;
+			PBXWorkspaceStateSaveDate = 254928824;
+		};
+		sourceControlManager = D15629BC0E5779C300A0F1DF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 589}}";
+			sepNavSelRange = "{149, 35}";
+			sepNavVisRange = "{0, 353}";
+			sepNavWindowFrame = "{{15, 212}, {832, 661}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{963, 60}, {944, 773}}";
+		};
+	};
+	D101064D0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {893, 400}}";
+			sepNavSelRange = "{242, 4}";
+			sepNavVisRange = "{241, 248}";
+			sepNavWindowFrame = "{{661, 82}, {800, 778}}";
+		};
+	};
+	D101064E0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 832}}";
+			sepNavSelRange = "{682, 0}";
+			sepNavVisRange = "{164, 1593}";
+			sepNavWindowFrame = "{{661, 82}, {800, 778}}";
+		};
+	};
+	D101655F0E5C1709009DFAFF /* StationsDataSourceProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 442}}";
+			sepNavSelRange = "{300, 19}";
+			sepNavVisRange = "{0, 352}";
+		};
+	};
+	D10165970E5C28C7009DFAFF /* SearchResultsDataSourceProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 706}}";
+			sepNavSelRange = "{43, 3}";
+			sepNavVisRange = "{0, 249}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D10166710E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 706}}";
+			sepNavSelRange = "{335, 0}";
+			sepNavVisRange = "{0, 342}";
+			sepNavWindowFrame = "{{715, 100}, {764, 778}}";
+		};
+	};
+	D10166720E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {642, 706}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 634}";
+			sepNavWindowFrame = "{{560, 100}, {556, 778}}";
+		};
+	};
+	D10167C30E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 702}}";
+			sepNavSelRange = "{442, 0}";
+			sepNavVisRange = "{0, 448}";
+			sepNavWindowFrame = "{{394, 89}, {1038, 778}}";
+		};
+	};
+	D10167C40E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 1024}}";
+			sepNavSelRange = "{2225, 0}";
+			sepNavVisRange = "{440, 1789}";
+			sepNavWindowFrame = "{{586, 104}, {770, 774}}";
+		};
+	};
+	D10167C60E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 706}}";
+			sepNavSelRange = "{340, 0}";
+			sepNavVisRange = "{0, 347}";
+			sepNavWindowFrame = "{{489, 76}, {800, 778}}";
+		};
+	};
+	D10167C70E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 992}}";
+			sepNavSelRange = "{760, 0}";
+			sepNavVisRange = "{260, 1171}";
+			sepNavWindowFrame = "{{468, 107}, {933, 763}}";
+		};
+	};
+	D110F8130E72D23F00285F11 /* MyTicketsPageViewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {801, 668}}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 329}";
+			sepNavWindowFrame = "{{524, 123}, {860, 740}}";
+		};
+	};
+	D110F8140E72D23F00285F11 /* MyTicketsPageViewController+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {801, 668}}";
+			sepNavSelRange = "{431, 0}";
+			sepNavVisRange = "{0, 439}";
+			sepNavWindowFrame = "{{524, 123}, {860, 740}}";
+		};
+	};
+	D11288010E784A660043A898 /* TimeButton.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 128}, {1009, 745}}";
+		};
+	};
+	D12ED9370E71518600E63218 /* MyTicketsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 4300}}";
+			sepNavSelRange = "{3728, 0}";
+			sepNavVisRange = "{4307, 1487}";
+			sepNavWindowFrame = "{{463, 120}, {866, 709}}";
+		};
+	};
+	D12ED9390E71518D00E63218 /* MyTicketsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 637}}";
+			sepNavSelRange = "{378, 0}";
+			sepNavVisRange = "{0, 1007}";
+			sepNavWindowFrame = "{{300, 120}, {866, 709}}";
+		};
+	};
+	D133DC660E82E7E500939B4E /* OneTapNavigationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 698}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{0, 324}";
+		};
+	};
+	D133DC670E82E7E500939B4E /* OneTapNavigationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 675}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 774}";
+			sepNavWindowFrame = "{{44, 108}, {1051, 770}}";
+		};
+	};
+	D133DC8F0E82E9FB00939B4E /* OneTapTicketsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {956, 696}}";
+			sepNavSelRange = "{261, 0}";
+			sepNavVisRange = "{0, 330}";
+		};
+	};
+	D133DC900E82E9FB00939B4E /* OneTapTicketsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {956, 880}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{147, 1118}";
+			sepNavWindowFrame = "{{472, 110}, {1015, 768}}";
+		};
+	};
+	D133DD090E82F45800939B4E /* OneTapCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {634, 703}}";
+			sepNavSelRange = "{425, 0}";
+			sepNavVisRange = "{0, 976}";
+			sepNavWindowFrame = "{{15, 98}, {693, 775}}";
+		};
+	};
+	D133DD0A0E82F45800939B4E /* OneTapCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {634, 1024}}";
+			sepNavSelRange = "{1346, 0}";
+			sepNavVisRange = "{324, 1290}";
+			sepNavWindowFrame = "{{15, 98}, {693, 775}}";
+		};
+	};
+	D133DD320E82F87E00939B4E /* OneTapTicketsViewController+DataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {905, 678}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 307}";
+		};
+	};
+	D133DD330E82F87E00939B4E /* OneTapTicketsViewController+DataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1328}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{3, 631}";
+			sepNavWindowFrame = "{{-15, 124}, {964, 750}}";
+		};
+	};
+	D133DD350E82F8A100939B4E /* OneTapTicketsViewController+Delegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {634, 703}}";
+			sepNavSelRange = "{300, 0}";
+			sepNavVisRange = "{0, 300}";
+			sepNavWindowFrame = "{{15, 98}, {693, 775}}";
+		};
+	};
+	D133DD360E82F8A100939B4E /* OneTapTicketsViewController+Delegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {727, 695}}";
+			sepNavSelRange = "{906, 0}";
+			sepNavVisRange = "{0, 906}";
+			sepNavWindowFrame = "{{61, 87}, {786, 767}}";
+		};
+	};
+	D13448630E66A2A800927921 /* AddFavoriteStationViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 592}}";
+			sepNavSelRange = "{1120, 0}";
+			sepNavVisRange = "{375, 907}";
+			sepNavWindowFrame = "{{365, 118}, {941, 760}}";
+		};
+	};
+	D13448640E66A2A800927921 /* AddFavoriteStationViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 1392}}";
+			sepNavSelRange = "{2929, 0}";
+			sepNavVisRange = "{152, 1264}";
+			sepNavWindowFrame = "{{365, 118}, {941, 760}}";
+		};
+	};
+	D13448680E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 706}}";
+			sepNavSelRange = "{327, 0}";
+			sepNavVisRange = "{0, 334}";
+			sepNavWindowFrame = "{{15, 95}, {866, 778}}";
+		};
+	};
+	D13448690E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 832}}";
+			sepNavSelRange = "{1640, 0}";
+			sepNavVisRange = "{169, 1480}";
+			sepNavWindowFrame = "{{-9, 100}, {866, 778}}";
+		};
+	};
+	D13448E60E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {661, 700}}";
+			sepNavSelRange = "{245, 0}";
+			sepNavVisRange = "{0, 323}";
+			sepNavWindowFrame = "{{15, 101}, {720, 772}}";
+		};
+	};
+	D13448E70E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {661, 700}}";
+			sepNavSelRange = "{483, 0}";
+			sepNavVisRange = "{0, 616}";
+			sepNavWindowFrame = "{{15, 101}, {720, 772}}";
+		};
+	};
+	D13448FB0E67048900927921 /* AddFavoriteStationDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {734, 706}}";
+			sepNavSelRange = "{420, 0}";
+			sepNavVisRange = "{0, 420}";
+			sepNavWindowFrame = "{{15, 101}, {720, 772}}";
+		};
+	};
+	D13448FC0E67048900927921 /* AddFavoriteStationDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 944}}";
+			sepNavSelRange = "{1464, 0}";
+			sepNavVisRange = "{741, 1334}";
+			sepNavWindowFrame = "{{143, 355}, {872, 523}}";
+		};
+	};
+	D13448FE0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1004, 700}}";
+			sepNavSelRange = "{321, 0}";
+			sepNavVisRange = "{0, 321}";
+			sepNavWindowFrame = "{{553, -48}, {779, 772}}";
+		};
+	};
+	D13448FF0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 752}}";
+			sepNavSelRange = "{1838, 0}";
+			sepNavVisRange = "{76, 1769}";
+			sepNavWindowFrame = "{{510, 106}, {1063, 772}}";
+		};
+	};
+	D15629B70E5779A400A0F1DF /* iTicket */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iTicket;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D15629BC0E5779C300A0F1DF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	D15629BD0E5779C300A0F1DF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D15629FB0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 880}}";
+			sepNavSelRange = "{628, 0}";
+			sepNavVisRange = "{154, 1926}";
+			sepNavWindowFrame = "{{708, 100}, {1038, 778}}";
+		};
+	};
+	D15629FC0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1632}}";
+			sepNavSelRange = "{1070, 0}";
+			sepNavVisRange = "{882, 2229}";
+			sepNavWindowFrame = "{{387, 89}, {1038, 778}}";
+		};
+	};
+	D16705200E7F995B008FB22E /* TimetableDetailedViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 698}}";
+			sepNavSelRange = "{278, 0}";
+			sepNavVisRange = "{0, 926}";
+			sepNavWindowFrame = "{{15, 103}, {1051, 770}}";
+		};
+	};
+	D16705210E7F995B008FB22E /* TimetableDetailedViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 4160}}";
+			sepNavSelRange = "{4792, 0}";
+			sepNavVisRange = "{4129, 2533}";
+			sepNavWindowFrame = "{{17, 106}, {885, 772}}";
+		};
+	};
+	D1682F9D0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 683}}";
+			sepNavSelRange = "{655, 0}";
+			sepNavVisRange = "{0, 726}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D1682F9E0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 1536}}";
+			sepNavSelRange = "{1648, 0}";
+			sepNavVisRange = "{601, 1730}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D1682FCC0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 683}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 305}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D1682FCD0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 706}}";
+			sepNavSelRange = "{525, 0}";
+			sepNavVisRange = "{0, 537}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D16831670E5A0F6C0071F5C2 /* SearchBarGradient.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D16831680E5A0F6C0071F5C2 /* ToolbarShadow.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 95}, {556, 778}}";
+		};
+	};
+	D168316F0E5A0FAE0071F5C2 /* Timetable.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 133}, {860, 740}}";
+		};
+	};
+	D168D9590E7EF74F003F057C /* Arrival.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D168D95A0E7EF750003F057C /* Departure.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D168D95B0E7EF750003F057C /* IntermediateArrival.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D168D95C0E7EF750003F057C /* IntermediateDeparture.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D168D95D0E7EF750003F057C /* Track.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D168D95E0E7EF750003F057C /* TrackWithStop.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D16A1A310E7FB3E300B0A2E8 /* en */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{290, -12}, {788, 752}}";
+		};
+	};
+	D16A1A330E7FB3E300B0A2E8 /* en */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{70, 144}, {704, 660}}";
+		};
+	};
+	D16E5AA10E5820C8003754A1 /* AllStationsDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 442}}";
+			sepNavSelRange = "{267, 43}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	D16E5AA20E5820C8003754A1 /* AllStationsDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 724}}";
+			sepNavSelRange = "{1342, 5}";
+			sepNavVisRange = "{1106, 241}";
+			sepNavWindowFrame = "{{15, 106}, {896, 767}}";
+		};
+	};
+	D16E5AA40E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 701}}";
+			sepNavSelRange = "{389, 0}";
+			sepNavVisRange = "{0, 462}";
+			sepNavWindowFrame = "{{524, 105}, {1019, 773}}";
+		};
+	};
+	D16E5AA50E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 1056}}";
+			sepNavSelRange = "{777, 0}";
+			sepNavVisRange = "{341, 1720}";
+			sepNavWindowFrame = "{{195, 88}, {1019, 773}}";
+		};
+	};
+	D16E5C7B0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 706}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{0, 353}";
+			sepNavWindowFrame = "{{659, 100}, {764, 778}}";
+		};
+	};
+	D16E5C7C0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {821, 1184}}";
+			sepNavSelRange = "{895, 0}";
+			sepNavVisRange = "{125, 1551}";
+			sepNavWindowFrame = "{{648, 100}, {880, 778}}";
+		};
+	};
+	D16E6D950E85610000BE81AC /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1009, 976}}";
+			sepNavSelRange = "{2180, 0}";
+			sepNavVisRange = "{651, 2664}";
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D16EC2FB0E7136D40067BC99 /* MyTicketsPageViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 864}}";
+			sepNavSelRange = "{864, 0}";
+			sepNavVisRange = "{0, 1292}";
+			sepNavWindowFrame = "{{38, 145}, {708, 707}}";
+		};
+	};
+	D16EC2FC0E7136D40067BC99 /* MyTicketsPageViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 1952}}";
+			sepNavSelRange = "{2101, 101}";
+			sepNavVisRange = "{984, 1569}";
+			sepNavWindowFrame = "{{537, 157}, {708, 707}}";
+		};
+	};
+	D174F2DC0E71093E00D05C0D /* TicketBack.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 156}, {829, 696}}";
+		};
+	};
+	D179E9470E80EB5D006779D1 /* DetailedViewCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 683}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRange = "{0, 653}";
+			sepNavWindowFrame = "{{325, 40}, {847, 778}}";
+		};
+	};
+	D179E9480E80EB5D006779D1 /* DetailedViewCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 644}}";
+			sepNavSelRange = "{447, 0}";
+			sepNavVisRange = "{0, 503}";
+			sepNavWindowFrame = "{{1040, 49}, {875, 739}}";
+		};
+	};
+	D17FAEFB0E61B02200C1D53C /* NearbyStationCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {549, 706}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 538}";
+			sepNavWindowFrame = "{{182, 100}, {608, 778}}";
+		};
+	};
+	D17FAEFC0E61B02200C1D53C /* NearbyStationCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {549, 816}}";
+			sepNavSelRange = "{1183, 0}";
+			sepNavVisRange = "{133, 1059}";
+			sepNavWindowFrame = "{{655, 100}, {608, 778}}";
+		};
+	};
+	D18352550E596AA200BD2543 /* SearchableTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 1488}}";
+			sepNavSelRange = "{2460, 0}";
+			sepNavVisRange = "{1871, 1466}";
+			sepNavWindowFrame = "{{12, 100}, {758, 778}}";
+		};
+	};
+	D18352560E596AA200BD2543 /* SearchableTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 2128}}";
+			sepNavSelRange = "{1528, 0}";
+			sepNavVisRange = "{919, 1186}";
+			sepNavWindowFrame = "{{311, 73}, {758, 778}}";
+		};
+	};
+	D183529C0E597CE800BD2543 /* SearchableTableViewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 706}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 336}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D183529D0E597CE800BD2543 /* SearchableTableViewController+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {699, 706}}";
+			sepNavSelRange = "{340, 0}";
+			sepNavVisRange = "{0, 349}";
+			sepNavWindowFrame = "{{15, 95}, {758, 778}}";
+		};
+	};
+	D1836DEA0E6578EA005BF4EB /* Stations.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 648}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 962}";
+			sepNavWindowFrame = "{{61, 111}, {1108, 720}}";
+		};
+	};
+	D1836DEB0E6578EA005BF4EB /* Stations.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 2272}}";
+			sepNavSelRange = "{3217, 0}";
+			sepNavVisRange = "{2214, 1660}";
+			sepNavWindowFrame = "{{234, 130}, {1108, 720}}";
+		};
+	};
+	D1836DED0E6578F9005BF4EB /* Station.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 704}}";
+			sepNavSelRange = "{319, 10}";
+			sepNavVisRange = "{0, 744}";
+			sepNavWindowFrame = "{{365, 102}, {970, 776}}";
+		};
+	};
+	D1836DEE0E6578F9005BF4EB /* Station.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 928}}";
+			sepNavSelRange = "{917, 0}";
+			sepNavVisRange = "{198, 1154}";
+			sepNavWindowFrame = "{{77, 178}, {638, 674}}";
+		};
+	};
+	D1836DEF0E6578F9005BF4EB /* Ticket.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 848}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{126, 964}";
+			sepNavWindowFrame = "{{300, 161}, {708, 707}}";
+		};
+	};
+	D1836DF00E6578F9005BF4EB /* Ticket.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 1264}}";
+			sepNavSelRange = "{202, 0}";
+			sepNavVisRange = "{0, 1236}";
+			sepNavWindowFrame = "{{300, 161}, {708, 707}}";
+		};
+	};
+	D18BDAC50E85343500555A43 /* Connections.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 99}, {1068, 774}}";
+		};
+	};
+	D190E9830E654947006944E8 /* BuyTicketNavigationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {660, 705}}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 491}";
+			sepNavWindowFrame = "{{434, 31}, {719, 777}}";
+		};
+	};
+	D190E9840E654947006944E8 /* BuyTicketNavigationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {660, 705}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 551}";
+			sepNavWindowFrame = "{{434, 31}, {719, 777}}";
+		};
+	};
+	D1986A0A0E7AD3EE004166F6 /* TimetableCellBright.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 128}, {1009, 745}}";
+		};
+	};
+	D1986A0B0E7AD3EE004166F6 /* TimetableCellDark.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 107}, {1009, 745}}";
+		};
+	};
+	D1986A370E7ADF62004166F6 /* TimetableCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 673}}";
+			sepNavSelRange = "{176, 0}";
+			sepNavVisRange = "{0, 820}";
+			sepNavWindowFrame = "{{15, 128}, {1009, 745}}";
+		};
+	};
+	D1986A380E7ADF62004166F6 /* TimetableCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 800}}";
+			sepNavSelRange = "{1029, 0}";
+			sepNavVisRange = "{132, 907}";
+			sepNavWindowFrame = "{{762, 121}, {796, 737}}";
+		};
+	};
+	D1986A3F0E7AE062004166F6 /* TimetableOverviewController+DataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 673}}";
+			sepNavSelRange = "{182, 0}";
+			sepNavVisRange = "{0, 307}";
+			sepNavWindowFrame = "{{118, 109}, {1009, 745}}";
+		};
+	};
+	D1986A400E7AE062004166F6 /* TimetableOverviewController+DataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1216}}";
+			sepNavSelRange = "{1798, 0}";
+			sepNavVisRange = "{1042, 1611}";
+			sepNavWindowFrame = "{{298, 94}, {1009, 745}}";
+		};
+	};
+	D1986A420E7AE093004166F6 /* TimetableOverviewController+Delegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 566}}";
+			sepNavSelRange = "{293, 0}";
+			sepNavVisRange = "{0, 301}";
+			sepNavWindowFrame = "{{15, 212}, {832, 661}}";
+		};
+	};
+	D1986A430E7AE093004166F6 /* TimetableOverviewController+Delegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1440}}";
+			sepNavSelRange = "{2162, 0}";
+			sepNavVisRange = "{155, 1805}";
+			sepNavWindowFrame = "{{15, 128}, {1009, 745}}";
+		};
+	};
+	D1A3B7170E631481003B666C /* iTicketTabBarController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 696}}";
+			sepNavSelRange = "{216, 0}";
+			sepNavVisRange = "{0, 364}";
+			sepNavWindowFrame = "{{596, 61}, {811, 768}}";
+		};
+	};
+	D1A3B7180E631481003B666C /* iTicketTabBarController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 696}}";
+			sepNavSelRange = "{404, 0}";
+			sepNavVisRange = "{0, 412}";
+			sepNavWindowFrame = "{{169, 88}, {811, 768}}";
+		};
+	};
+	D1A3B7E60E632AB4003B666C /* BuyTicketDestinationsTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 1040}}";
+			sepNavSelRange = "{1016, 29}";
+			sepNavVisRange = "{385, 2247}";
+			sepNavWindowFrame = "{{498, 48}, {764, 778}}";
+		};
+	};
+	D1A3B7E70E632AB4003B666C /* BuyTicketDestinationsTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 2112}}";
+			sepNavSelRange = "{4271, 0}";
+			sepNavVisRange = "{3459, 1258}";
+			sepNavWindowFrame = "{{267, 100}, {1129, 778}}";
+		};
+	};
+	D1A3B8000E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 688}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{0, 352}";
+			sepNavWindowFrame = "{{15, 95}, {1038, 778}}";
+		};
+	};
+	D1A3B8010E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1200}}";
+			sepNavSelRange = "{1021, 0}";
+			sepNavVisRange = "{296, 2114}";
+			sepNavWindowFrame = "{{236, 113}, {1003, 760}}";
+		};
+	};
+	D1A3B8030E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 706}}";
+			sepNavSelRange = "{460, 0}";
+			sepNavVisRange = "{0, 466}";
+			sepNavWindowFrame = "{{15, 95}, {1038, 778}}";
+		};
+	};
+	D1A3B8040E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 960}}";
+			sepNavSelRange = "{2072, 0}";
+			sepNavVisRange = "{1468, 608}";
+			sepNavWindowFrame = "{{840, 98}, {1038, 778}}";
+		};
+	};
+	D1A3B8060E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 706}}";
+			sepNavSelRange = "{469, 0}";
+			sepNavVisRange = "{0, 484}";
+			sepNavWindowFrame = "{{15, 95}, {1038, 778}}";
+		};
+	};
+	D1A3B8070E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 992}}";
+			sepNavSelRange = "{2193, 0}";
+			sepNavVisRange = "{1582, 615}";
+			sepNavWindowFrame = "{{464, 111}, {850, 767}}";
+		};
+	};
+	D1A3B8090E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 706}}";
+			sepNavSelRange = "{314, 0}";
+			sepNavVisRange = "{0, 385}";
+			sepNavWindowFrame = "{{15, 95}, {1038, 778}}";
+		};
+	};
+	D1A3B80A0E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 1408}}";
+			sepNavSelRange = "{2584, 0}";
+			sepNavVisRange = "{1529, 1604}";
+			sepNavWindowFrame = "{{450, 63}, {1038, 778}}";
+		};
+	};
+	D1A3B83F0E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 706}}";
+			sepNavSelRange = "{329, 21}";
+			sepNavVisRange = "{0, 357}";
+			sepNavWindowFrame = "{{15, 95}, {800, 778}}";
+		};
+	};
+	D1A3B8400E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 1184}}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{0, 1583}";
+			sepNavWindowFrame = "{{713, 100}, {800, 778}}";
+		};
+	};
+	D1A3B8420E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {893, 464}}";
+			sepNavSelRange = "{246, 4}";
+			sepNavVisRange = "{245, 294}";
+			sepNavWindowFrame = "{{10, 106}, {720, 772}}";
+		};
+	};
+	D1A3B8430E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1024}}";
+			sepNavSelRange = "{1658, 0}";
+			sepNavVisRange = "{578, 1644}";
+			sepNavWindowFrame = "{{649, 106}, {720, 772}}";
+		};
+	};
+	D1A3B8450E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 706}}";
+			sepNavSelRange = "{183, 0}";
+			sepNavVisRange = "{0, 348}";
+			sepNavWindowFrame = "{{-21, 100}, {800, 778}}";
+		};
+	};
+	D1A3B8460E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {741, 706}}";
+			sepNavSelRange = "{545, 0}";
+			sepNavVisRange = "{0, 640}";
+			sepNavWindowFrame = "{{675, 100}, {800, 778}}";
+		};
+	};
+	D1B2997C0E7672CE00C09785 /* TimetableOverviewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {801, 672}}";
+			sepNavSelRange = "{1087, 0}";
+			sepNavVisRange = "{0, 1118}";
+			sepNavWindowFrame = "{{580, 3}, {860, 740}}";
+		};
+	};
+	D1B2997D0E7672CE00C09785 /* TimetableOverviewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1680}}";
+			sepNavSelRange = "{1770, 0}";
+			sepNavVisRange = "{1037, 1454}";
+			sepNavWindowFrame = "{{65, 87}, {978, 741}}";
+		};
+	};
+	D1B490610E74315500B9C5F1 /* QrCode.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 135}, {829, 696}}";
+		};
+	};
+	D1B54CD80E69568F00B9C18C /* en */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{592, 163}, {744, 588}}";
+		};
+	};
+	D1C03B920E790E47003EC75B /* TimetableOverviewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 673}}";
+			sepNavSelRange = "{414, 0}";
+			sepNavVisRange = "{0, 420}";
+			sepNavWindowFrame = "{{-6, 133}, {1009, 745}}";
+		};
+	};
+	D1C03B930E790E47003EC75B /* TimetableOverviewController+Events.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{434, 810}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2529}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1024}}";
+			sepNavSelRange = "{1381, 0}";
+			sepNavVisRange = "{385, 1297}";
+			sepNavWindowFrame = "{{723, 89}, {1009, 745}}";
+		};
+	};
+	D1C03C2C0E793D14003EC75B /* TimeButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 673}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 236}";
+		};
+	};
+	D1C03C2D0E793D14003EC75B /* TimeButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 673}}";
+			sepNavSelRange = "{580, 0}";
+			sepNavVisRange = "{0, 1171}";
+			sepNavWindowFrame = "{{548, -332}, {1009, 745}}";
+		};
+	};
+	D1C30E850E8181120030B6F9 /* en */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{779, 34}, {786, 767}}";
+		};
+	};
+	D1C415DB0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 701}}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRange = "{0, 480}";
+			sepNavWindowFrame = "{{15, 100}, {1019, 773}}";
+		};
+	};
+	D1C415DC0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1072}}";
+			sepNavSelRange = "{2346, 0}";
+			sepNavVisRange = "{1803, 547}";
+			sepNavWindowFrame = "{{94, 109}, {917, 769}}";
+		};
+	};
+	D1CD49D10E62DCE0002BC5E1 /* Defaults.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{491, 76}, {704, 727}}";
+		};
+	};
+	D1D56F850E5D6F6900FD27CD /* UIFactory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {660, 706}}";
+			sepNavSelRange = "{440, 0}";
+			sepNavVisRange = "{0, 511}";
+			sepNavWindowFrame = "{{495, 100}, {719, 778}}";
+		};
+	};
+	D1D56F860E5D6F6900FD27CD /* UIFactory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {660, 706}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{0, 545}";
+			sepNavWindowFrame = "{{495, 100}, {719, 778}}";
+		};
+	};
+	D1D621420E6E877300C6327E /* BuyTicketLoginViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 512}}";
+			sepNavSelRange = "{172, 4}";
+			sepNavVisRange = "{53, 332}";
+			sepNavWindowFrame = "{{15, 108}, {886, 765}}";
+		};
+	};
+	D1D621430E6E877300C6327E /* BuyTicketLoginViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 1616}}";
+			sepNavSelRange = "{1334, 0}";
+			sepNavVisRange = "{1391, 1506}";
+			sepNavWindowFrame = "{{541, 113}, {886, 765}}";
+		};
+	};
+	D1D621820E6E8F2F00C6327E /* InputCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 693}}";
+			sepNavSelRange = "{262, 0}";
+			sepNavVisRange = "{0, 292}";
+		};
+	};
+	D1D621830E6E8F2F00C6327E /* InputCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {827, 693}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRange = "{0, 275}";
+			sepNavWindowFrame = "{{432, 95}, {886, 765}}";
+		};
+	};
+	D1E0DD260E6947010054F1A7 /* BuyTicketOptionsTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 704}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 868}";
+			sepNavWindowFrame = "{{239, 85}, {1003, 776}}";
+		};
+	};
+	D1E0DD270E6947010054F1A7 /* BuyTicketOptionsTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {944, 4448}}";
+			sepNavSelRange = "{1131, 0}";
+			sepNavVisRange = "{713, 1643}";
+			sepNavWindowFrame = "{{31, 102}, {1003, 776}}";
+		};
+	};
+	D1E0DD480E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {823, 683}}";
+			sepNavSelRange = "{250, 0}";
+			sepNavVisRange = "{0, 456}";
+			sepNavWindowFrame = "{{444, 123}, {882, 755}}";
+		};
+	};
+	D1E0DD490E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {845, 720}}";
+			sepNavSelRange = "{690, 0}";
+			sepNavVisRange = "{0, 1305}";
+			sepNavWindowFrame = "{{444, 123}, {882, 755}}";
+		};
+	};
+	D1ED58DF0E5B40670092C86F /* en */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 95}, {556, 778}}";
+		};
+	};
+	D1F2D3110E6C1E9200E26693 /* Ticket.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 177}, {829, 696}}";
+		};
+	};
+	D1F2D3230E6C228500E26693 /* BuyTicketCheckoutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {801, 688}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 1366}";
+			sepNavWindowFrame = "{{257, 105}, {860, 740}}";
+		};
+	};
+	D1F2D3240E6C228500E26693 /* BuyTicketCheckoutViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 2944}}";
+			sepNavSelRange = "{2667, 0}";
+			sepNavVisRange = "{4837, 1382}";
+			sepNavWindowFrame = "{{681, 138}, {860, 740}}";
+		};
+	};
+	D1F2D3850E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {857, 368}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 430}";
+			sepNavWindowFrame = "{{486, 95}, {929, 761}}";
+		};
+	};
+	D1F2D3860E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 3424}}";
+			sepNavSelRange = "{3017, 0}";
+			sepNavVisRange = "{2221, 1617}";
+			sepNavWindowFrame = "{{44, 108}, {929, 761}}";
+		};
+	};
+	D1F5871D0E7D7A39009301B7 /* TimetableCellEmpty.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {621, 625}}";
+			sepNavSelRange = "{444, 17}";
+			sepNavVisRange = "{0, 513}";
+			sepNavWindowFrame = "{{459, 88}, {680, 697}}";
+		};
+	};
+	D1F5871E0E7D7A39009301B7 /* TimetableCellEmpty.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {621, 625}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 556}";
+			sepNavWindowFrame = "{{436, 126}, {680, 697}}";
+		};
+	};
+}

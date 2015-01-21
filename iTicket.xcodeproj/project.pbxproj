@@ -1,0 +1,1469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iTicketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iTicketAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		D101064F0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D101064E0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.m */; };
+		D10166730E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D10166720E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.m */; };
+		D10167C50E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10167C40E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.m */; };
+		D10167C80E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D10167C70E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.m */; };
+		D110F8150E72D23F00285F11 /* MyTicketsPageViewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D110F8140E72D23F00285F11 /* MyTicketsPageViewController+Events.m */; };
+		D11288030E784A660043A898 /* TimeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D11288010E784A660043A898 /* TimeButton.png */; };
+		D1154B9D0E6B075800ACC78B /* HalfFare.png in Resources */ = {isa = PBXBuildFile; fileRef = D1154B9B0E6B075800ACC78B /* HalfFare.png */; };
+		D1154BA60E6B078D00ACC78B /* FullFare.png in Resources */ = {isa = PBXBuildFile; fileRef = D1154BA50E6B078D00ACC78B /* FullFare.png */; };
+		D11BFFD50E8253F10051174C /* 1Tap.png in Resources */ = {isa = PBXBuildFile; fileRef = D11BFFD40E8253F10051174C /* 1Tap.png */; };
+		D12AF0D90E77CEB7009B00F0 /* TimetableBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D12AF0D80E77CEB7009B00F0 /* TimetableBackground.png */; };
+		D12ED9380E71518600E63218 /* MyTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12ED9370E71518600E63218 /* MyTicketsViewController.m */; };
+		D133DC680E82E7E500939B4E /* OneTapNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D133DC670E82E7E500939B4E /* OneTapNavigationController.m */; };
+		D133DC6B0E82E87500939B4E /* OneTapTickets.xib in Resources */ = {isa = PBXBuildFile; fileRef = D133DC690E82E87500939B4E /* OneTapTickets.xib */; };
+		D133DC6E0E82E8A200939B4E /* OneTapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D133DC6C0E82E8A200939B4E /* OneTapCell.xib */; };
+		D133DC910E82E9FB00939B4E /* OneTapTicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D133DC900E82E9FB00939B4E /* OneTapTicketsViewController.m */; };
+		D133DD0B0E82F45800939B4E /* OneTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D133DD0A0E82F45800939B4E /* OneTapCell.m */; };
+		D133DD260E82F72A00939B4E /* OneWayVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = D133DD240E82F72A00939B4E /* OneWayVertical.png */; };
+		D133DD270E82F72A00939B4E /* RoundTripVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = D133DD250E82F72A00939B4E /* RoundTripVertical.png */; };
+		D133DD340E82F87E00939B4E /* OneTapTicketsViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D133DD330E82F87E00939B4E /* OneTapTicketsViewController+DataSource.m */; };
+		D133DD370E82F8A100939B4E /* OneTapTicketsViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D133DD360E82F8A100939B4E /* OneTapTicketsViewController+Delegate.m */; };
+		D13448650E66A2A800927921 /* AddFavoriteStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13448640E66A2A800927921 /* AddFavoriteStationViewController.m */; };
+		D134486A0E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D13448690E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.m */; };
+		D13448E80E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D13448E70E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.m */; };
+		D13448FD0E67048900927921 /* AddFavoriteStationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D13448FC0E67048900927921 /* AddFavoriteStationDelegate.m */; };
+		D13449000E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D13448FF0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.m */; };
+		D15629C10E5779EF00A0F1DF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15629BF0E5779EF00A0F1DF /* MainWindow.xib */; };
+		D15629D00E577A5F00A0F1DF /* BuyTicketDepartures.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15629CE0E577A5F00A0F1DF /* BuyTicketDepartures.xib */; };
+		D15629FD0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15629FC0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.m */; };
+		D15765200E705BEF003A2629 /* MyTickets.xib in Resources */ = {isa = PBXBuildFile; fileRef = D157651E0E705BEF003A2629 /* MyTickets.xib */; };
+		D162CF7B0E6C407300E86D8D /* TranslucentButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D162CF7A0E6C407300E86D8D /* TranslucentButtonPressed.png */; };
+		D16705220E7F995B008FB22E /* TimetableDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16705210E7F995B008FB22E /* TimetableDetailedViewController.m */; };
+		D16705250E7F99BF008FB22E /* TimetableDetailed.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16705230E7F99BF008FB22E /* TimetableDetailed.xib */; };
+		D167C87D0E6ACF260070D3AD /* FirstClass.png in Resources */ = {isa = PBXBuildFile; fileRef = D167C87B0E6ACF260070D3AD /* FirstClass.png */; };
+		D167C87E0E6ACF260070D3AD /* SecondClass.png in Resources */ = {isa = PBXBuildFile; fileRef = D167C87C0E6ACF260070D3AD /* SecondClass.png */; };
+		D1682F9F0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1682F9E0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.m */; };
+		D1682FCE0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1682FCD0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.m */; };
+		D16831690E5A0F6C0071F5C2 /* SearchBarGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = D16831670E5A0F6C0071F5C2 /* SearchBarGradient.png */; };
+		D168316A0E5A0F6C0071F5C2 /* ToolbarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = D16831680E5A0F6C0071F5C2 /* ToolbarShadow.png */; };
+		D16831710E5A0FAE0071F5C2 /* BuyTicket.png in Resources */ = {isa = PBXBuildFile; fileRef = D168316D0E5A0FAE0071F5C2 /* BuyTicket.png */; };
+		D16831720E5A0FAE0071F5C2 /* MyTickets.png in Resources */ = {isa = PBXBuildFile; fileRef = D168316E0E5A0FAE0071F5C2 /* MyTickets.png */; };
+		D16831730E5A0FAE0071F5C2 /* Timetable.png in Resources */ = {isa = PBXBuildFile; fileRef = D168316F0E5A0FAE0071F5C2 /* Timetable.png */; };
+		D168D95F0E7EF750003F057C /* Arrival.png in Resources */ = {isa = PBXBuildFile; fileRef = D168D9590E7EF74F003F057C /* Arrival.png */; };
+		D168D9600E7EF750003F057C /* Departure.png in Resources */ = {isa = PBXBuildFile; fileRef = D168D95A0E7EF750003F057C /* Departure.png */; };
+		D168D9610E7EF750003F057C /* IntermediateArrival.png in Resources */ = {isa = PBXBuildFile; fileRef = D168D95B0E7EF750003F057C /* IntermediateArrival.png */; };
+		D168D9620E7EF750003F057C /* IntermediateDeparture.png in Resources */ = {isa = PBXBuildFile; fileRef = D168D95C0E7EF750003F057C /* IntermediateDeparture.png */; };
+		D168D9630E7EF750003F057C /* Track.png in Resources */ = {isa = PBXBuildFile; fileRef = D168D95D0E7EF750003F057C /* Track.png */; };
+		D168D9640E7EF750003F057C /* TrackWithStop.png in Resources */ = {isa = PBXBuildFile; fileRef = D168D95E0E7EF750003F057C /* TrackWithStop.png */; };
+		D168D9670E7EF823003F057C /* DepartureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D168D9650E7EF823003F057C /* DepartureCell.xib */; };
+		D16A1A360E7FB3E300B0A2E8 /* TimetableDetailedView.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16A1A300E7FB3E300B0A2E8 /* TimetableDetailedView.plist */; };
+		D16A1A370E7FB3E300B0A2E8 /* TimetableDetailedView2.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16A1A320E7FB3E300B0A2E8 /* TimetableDetailedView2.plist */; };
+		D16E5AA30E5820C8003754A1 /* AllStationsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E5AA20E5820C8003754A1 /* AllStationsDataSource.m */; };
+		D16E5AA60E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E5AA50E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.m */; };
+		D16E5C7D0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E5C7C0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.m */; };
+		D16E6D960E85610000BE81AC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D16E6D940E85610000BE81AC /* Localizable.strings */; };
+		D16EC2F90E7136790067BC99 /* MyTicketsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16EC2F70E7136790067BC99 /* MyTicketsPage.xib */; };
+		D16EC2FD0E7136D40067BC99 /* MyTicketsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EC2FC0E7136D40067BC99 /* MyTicketsPageViewController.m */; };
+		D174F2DD0E71093E00D05C0D /* TicketBack.png in Resources */ = {isa = PBXBuildFile; fileRef = D174F2DC0E71093E00D05C0D /* TicketBack.png */; };
+		D179E9490E80EB5D006779D1 /* DetailedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D179E9480E80EB5D006779D1 /* DetailedViewCell.m */; };
+		D179E97B0E80F5F8006779D1 /* ArrivalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D179E9790E80F5F8006779D1 /* ArrivalCell.xib */; };
+		D179E97E0E80F613006779D1 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D179E97C0E80F613006779D1 /* TrackCell.xib */; };
+		D179E9810E80F61E006779D1 /* TrackWithStopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D179E97F0E80F61E006779D1 /* TrackWithStopCell.xib */; };
+		D17FAEFD0E61B02200C1D53C /* NearbyStationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D17FAEFC0E61B02200C1D53C /* NearbyStationCell.m */; };
+		D18352490E5968FD00BD2543 /* SearchableTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18352470E5968FD00BD2543 /* SearchableTableView.xib */; };
+		D18352570E596AA200BD2543 /* SearchableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18352560E596AA200BD2543 /* SearchableTableViewController.m */; };
+		D183529E0E597CE800BD2543 /* SearchableTableViewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D183529D0E597CE800BD2543 /* SearchableTableViewController+Events.m */; };
+		D1836DEC0E6578EA005BF4EB /* Stations.m in Sources */ = {isa = PBXBuildFile; fileRef = D1836DEB0E6578EA005BF4EB /* Stations.m */; };
+		D1836DF10E6578F9005BF4EB /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = D1836DEE0E6578F9005BF4EB /* Station.m */; };
+		D1836DF20E6578F9005BF4EB /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = D1836DF00E6578F9005BF4EB /* Ticket.m */; };
+		D18BDA3E0E85088800555A43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D18BDA3B0E85088800555A43 /* Default.png */; };
+		D18BDAC10E85341500555A43 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D18BDAC00E85341500555A43 /* Connection.m */; };
+		D18BDAC40E85342400555A43 /* Connections.m in Sources */ = {isa = PBXBuildFile; fileRef = D18BDAC30E85342400555A43 /* Connections.m */; };
+		D18BDAC60E85343500555A43 /* Connections.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18BDAC50E85343500555A43 /* Connections.plist */; };
+		D190E9850E654947006944E8 /* BuyTicketNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D190E9840E654947006944E8 /* BuyTicketNavigationController.m */; };
+		D1986A0C0E7AD3EE004166F6 /* TimetableCellBright.png in Resources */ = {isa = PBXBuildFile; fileRef = D1986A0A0E7AD3EE004166F6 /* TimetableCellBright.png */; };
+		D1986A0D0E7AD3EE004166F6 /* TimetableCellDark.png in Resources */ = {isa = PBXBuildFile; fileRef = D1986A0B0E7AD3EE004166F6 /* TimetableCellDark.png */; };
+		D1986A390E7ADF62004166F6 /* TimetableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1986A380E7ADF62004166F6 /* TimetableCell.m */; };
+		D1986A410E7AE062004166F6 /* TimetableOverviewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D1986A400E7AE062004166F6 /* TimetableOverviewController+DataSource.m */; };
+		D1986A440E7AE093004166F6 /* TimetableOverviewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1986A430E7AE093004166F6 /* TimetableOverviewController+Delegate.m */; };
+		D1A1D1B50E5DEEB300910E94 /* NearbyStationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A1D1B30E5DEEB300910E94 /* NearbyStationCell.xib */; };
+		D1A3B7190E631481003B666C /* iTicketTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B7180E631481003B666C /* iTicketTabBarController.m */; };
+		D1A3B7E80E632AB4003B666C /* BuyTicketDestinationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B7E70E632AB4003B666C /* BuyTicketDestinationsTableViewController.m */; };
+		D1A3B7EC0E632ACD003B666C /* BuyTicketDestinations.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A3B7EA0E632ACD003B666C /* BuyTicketDestinations.xib */; };
+		D1A3B8020E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B8010E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.m */; };
+		D1A3B8050E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B8040E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.m */; };
+		D1A3B8080E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B8070E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m */; };
+		D1A3B80B0E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B80A0E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.m */; };
+		D1A3B8410E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B8400E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.m */; };
+		D1A3B8440E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B8430E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.m */; };
+		D1A3B8470E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B8460E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.m */; };
+		D1B2995E0E76703200C09785 /* TimetableIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B2995C0E76703200C09785 /* TimetableIcon.png */; };
+		D1B299660E76721800C09785 /* TimetableOverview.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B299640E76721800C09785 /* TimetableOverview.xib */; };
+		D1B2997E0E7672CE00C09785 /* TimetableOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B2997D0E7672CE00C09785 /* TimetableOverviewController.m */; };
+		D1B490620E74315500B9C5F1 /* QrCode.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B490610E74315500B9C5F1 /* QrCode.png */; };
+		D1B54CD90E69568F00B9C18C /* BuyTicketOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1B54CD70E69568F00B9C18C /* BuyTicketOptions.plist */; };
+		D1B54F670E6AAA0400B9C18C /* OneWay.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B54F650E6AAA0400B9C18C /* OneWay.png */; };
+		D1B54F680E6AAA0400B9C18C /* RoundTrip.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B54F660E6AAA0400B9C18C /* RoundTrip.png */; };
+		D1BC118E0E7D00F0006CFCA1 /* TimetableCellBright.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1BC118C0E7D00F0006CFCA1 /* TimetableCellBright.xib */; };
+		D1BC119B0E7D01FC006CFCA1 /* TimetableCellBrightSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BC11990E7D01FC006CFCA1 /* TimetableCellBrightSelected.png */; };
+		D1BC119C0E7D01FC006CFCA1 /* TimetableCellDarkSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BC119A0E7D01FC006CFCA1 /* TimetableCellDarkSelected.png */; };
+		D1BC119F0E7D0230006CFCA1 /* TimetableCellDark.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1BC119D0E7D0230006CFCA1 /* TimetableCellDark.xib */; };
+		D1C03B940E790E47003EC75B /* TimetableOverviewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C03B930E790E47003EC75B /* TimetableOverviewController+Events.m */; };
+		D1C03C2E0E793D14003EC75B /* TimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C03C2D0E793D14003EC75B /* TimeButton.m */; };
+		D1C30E860E8181120030B6F9 /* TimetableDetailedView3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1C30E840E8181120030B6F9 /* TimetableDetailedView3.plist */; };
+		D1C415DD0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C415DC0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m */; };
+		D1CA47D30E72B18300F550D0 /* DeleteTicket.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CA47D10E72B18300F550D0 /* DeleteTicket.png */; };
+		D1CA47D40E72B18300F550D0 /* DeleteTicketPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CA47D20E72B18300F550D0 /* DeleteTicketPressed.png */; };
+		D1CD49D20E62DCE0002BC5E1 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1CD49D10E62DCE0002BC5E1 /* Defaults.plist */; };
+		D1D56F870E5D6F6900FD27CD /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D56F860E5D6F6900FD27CD /* UIFactory.m */; };
+		D1D621270E6E7F3800C6327E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1D621260E6E7F3800C6327E /* Settings.bundle */; };
+		D1D621440E6E877300C6327E /* BuyTicketLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D621430E6E877300C6327E /* BuyTicketLoginViewController.m */; };
+		D1D6215C0E6E89F900C6327E /* BuyTicketLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D6215A0E6E89F900C6327E /* BuyTicketLogin.xib */; };
+		D1D6216D0E6E8D9D00C6327E /* InputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D6216B0E6E8D9D00C6327E /* InputCell.xib */; };
+		D1D621840E6E8F2F00C6327E /* InputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D621830E6E8F2F00C6327E /* InputCell.m */; };
+		D1D982940E6D63F300BA4642 /* TranslucentButtonRedPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D982930E6D63F300BA4642 /* TranslucentButtonRedPressed.png */; };
+		D1D982FA0E6DB19D00BA4642 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D982F90E6DB19D00BA4642 /* QuartzCore.framework */; };
+		D1E0DD280E6947010054F1A7 /* BuyTicketOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E0DD270E6947010054F1A7 /* BuyTicketOptionsTableViewController.m */; };
+		D1E0DD2C0E6947E10054F1A7 /* BuyTicketOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E0DD2A0E6947E10054F1A7 /* BuyTicketOptions.xib */; };
+		D1E0DD4A0E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E0DD490E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.m */; };
+		D1E7FD1D0E855A8F00856A2B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E7FD1C0E855A8F00856A2B /* Icon.png */; };
+		D1ED58E00E5B40670092C86F /* Stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1ED58DE0E5B40670092C86F /* Stations.plist */; };
+		D1F2D3120E6C1E9200E26693 /* Ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F2D3110E6C1E9200E26693 /* Ticket.png */; };
+		D1F2D3140E6C1F9700E26693 /* BackgroundGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F2D3130E6C1F9700E26693 /* BackgroundGradient.png */; };
+		D1F2D31A0E6C20D100E26693 /* BuyTicketCheckout.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F2D3180E6C20D100E26693 /* BuyTicketCheckout.xib */; };
+		D1F2D3250E6C228500E26693 /* BuyTicketCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F2D3240E6C228500E26693 /* BuyTicketCheckoutViewController.m */; };
+		D1F2D3870E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F2D3860E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.m */; };
+		D1F2D3B20E6C3D0A00E26693 /* TranslucentButtonRed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F2D3B10E6C3D0A00E26693 /* TranslucentButtonRed.png */; };
+		D1F2D3B40E6C3D1D00E26693 /* TranslucentButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F2D3B30E6C3D1D00E26693 /* TranslucentButton.png */; };
+		D1F5870D0E7D789B009301B7 /* TimetableCellBrightEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F5870B0E7D789B009301B7 /* TimetableCellBrightEmpty.png */; };
+		D1F5870E0E7D789B009301B7 /* TimetableCellBrightEmptySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D1F5870C0E7D789B009301B7 /* TimetableCellBrightEmptySelected.png */; };
+		D1F587110E7D78CE009301B7 /* TimetableCellBrightEmpty.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F5870F0E7D78CE009301B7 /* TimetableCellBrightEmpty.xib */; };
+		D1F5871F0E7D7A39009301B7 /* TimetableCellEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F5871E0E7D7A39009301B7 /* TimetableCellEmpty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iTicketAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTicketAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iTicketAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTicketAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iTicket_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTicket_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D101064D0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketDeparturesTableViewController+Events.h"; sourceTree = "<group>"; };
+		D101064E0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketDeparturesTableViewController+Events.m"; sourceTree = "<group>"; };
+		D101655F0E5C1709009DFAFF /* StationsDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsDataSourceProtocol.h; sourceTree = "<group>"; };
+		D10165970E5C28C7009DFAFF /* SearchResultsDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsDataSourceProtocol.h; sourceTree = "<group>"; };
+		D10166710E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketDeparturesTableViewController+SearchResultsDataSource.h"; sourceTree = "<group>"; };
+		D10166720E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketDeparturesTableViewController+SearchResultsDataSource.m"; sourceTree = "<group>"; };
+		D10167C30E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketNearbyStationsTableViewDelegate.h; sourceTree = "<group>"; };
+		D10167C40E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketNearbyStationsTableViewDelegate.m; sourceTree = "<group>"; };
+		D10167C60E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketNearbyStationsTableViewDataSource.h; sourceTree = "<group>"; };
+		D10167C70E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketNearbyStationsTableViewDataSource.m; sourceTree = "<group>"; };
+		D110F8130E72D23F00285F11 /* MyTicketsPageViewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyTicketsPageViewController+Events.h"; sourceTree = "<group>"; };
+		D110F8140E72D23F00285F11 /* MyTicketsPageViewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyTicketsPageViewController+Events.m"; sourceTree = "<group>"; };
+		D11288010E784A660043A898 /* TimeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeButton.png; sourceTree = "<group>"; };
+		D1154B9B0E6B075800ACC78B /* HalfFare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalfFare.png; sourceTree = "<group>"; };
+		D1154BA50E6B078D00ACC78B /* FullFare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullFare.png; sourceTree = "<group>"; };
+		D11BFFD40E8253F10051174C /* 1Tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Tap.png; sourceTree = "<group>"; };
+		D12AF0D80E77CEB7009B00F0 /* TimetableBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableBackground.png; sourceTree = "<group>"; };
+		D12ED9370E71518600E63218 /* MyTicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTicketsViewController.m; sourceTree = "<group>"; };
+		D12ED9390E71518D00E63218 /* MyTicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTicketsViewController.h; sourceTree = "<group>"; };
+		D133DC660E82E7E500939B4E /* OneTapNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTapNavigationController.h; sourceTree = "<group>"; };
+		D133DC670E82E7E500939B4E /* OneTapNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTapNavigationController.m; sourceTree = "<group>"; };
+		D133DC6A0E82E87500939B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OneTapTickets.xib; sourceTree = "<group>"; };
+		D133DC6D0E82E8A200939B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OneTapCell.xib; sourceTree = "<group>"; };
+		D133DC8F0E82E9FB00939B4E /* OneTapTicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTapTicketsViewController.h; sourceTree = "<group>"; };
+		D133DC900E82E9FB00939B4E /* OneTapTicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTapTicketsViewController.m; sourceTree = "<group>"; };
+		D133DD090E82F45800939B4E /* OneTapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTapCell.h; sourceTree = "<group>"; };
+		D133DD0A0E82F45800939B4E /* OneTapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTapCell.m; sourceTree = "<group>"; };
+		D133DD240E82F72A00939B4E /* OneWayVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OneWayVertical.png; sourceTree = "<group>"; };
+		D133DD250E82F72A00939B4E /* RoundTripVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundTripVertical.png; sourceTree = "<group>"; };
+		D133DD320E82F87E00939B4E /* OneTapTicketsViewController+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneTapTicketsViewController+DataSource.h"; sourceTree = "<group>"; };
+		D133DD330E82F87E00939B4E /* OneTapTicketsViewController+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OneTapTicketsViewController+DataSource.m"; sourceTree = "<group>"; };
+		D133DD350E82F8A100939B4E /* OneTapTicketsViewController+Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneTapTicketsViewController+Delegate.h"; sourceTree = "<group>"; };
+		D133DD360E82F8A100939B4E /* OneTapTicketsViewController+Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OneTapTicketsViewController+Delegate.m"; sourceTree = "<group>"; };
+		D13448630E66A2A800927921 /* AddFavoriteStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFavoriteStationViewController.h; sourceTree = "<group>"; };
+		D13448640E66A2A800927921 /* AddFavoriteStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFavoriteStationViewController.m; sourceTree = "<group>"; };
+		D13448680E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddFavoriteStationViewController+SearchBarDelegate.h"; sourceTree = "<group>"; };
+		D13448690E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AddFavoriteStationViewController+SearchBarDelegate.m"; sourceTree = "<group>"; };
+		D13448E60E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddFavoriteStationViewController+SearchResultsDataSource.h"; sourceTree = "<group>"; };
+		D13448E70E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AddFavoriteStationViewController+SearchResultsDataSource.m"; sourceTree = "<group>"; };
+		D13448FB0E67048900927921 /* AddFavoriteStationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFavoriteStationDelegate.h; sourceTree = "<group>"; };
+		D13448FC0E67048900927921 /* AddFavoriteStationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFavoriteStationDelegate.m; sourceTree = "<group>"; };
+		D13448FE0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddFavoriteStationViewController+SearchResultsDelegate.h"; sourceTree = "<group>"; };
+		D13448FF0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AddFavoriteStationViewController+SearchResultsDelegate.m"; sourceTree = "<group>"; };
+		D15629C00E5779EF00A0F1DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D15629CF0E577A5F00A0F1DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuyTicketDepartures.xib; sourceTree = "<group>"; };
+		D15629FB0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketDeparturesTableViewController.h; sourceTree = "<group>"; };
+		D15629FC0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketDeparturesTableViewController.m; sourceTree = "<group>"; };
+		D157651F0E705BEF003A2629 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyTickets.xib; sourceTree = "<group>"; };
+		D162CF7A0E6C407300E86D8D /* TranslucentButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TranslucentButtonPressed.png; sourceTree = "<group>"; };
+		D16705200E7F995B008FB22E /* TimetableDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableDetailedViewController.h; sourceTree = "<group>"; };
+		D16705210E7F995B008FB22E /* TimetableDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableDetailedViewController.m; sourceTree = "<group>"; };
+		D16705240E7F99BF008FB22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimetableDetailed.xib; sourceTree = "<group>"; };
+		D167C87B0E6ACF260070D3AD /* FirstClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstClass.png; sourceTree = "<group>"; };
+		D167C87C0E6ACF260070D3AD /* SecondClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondClass.png; sourceTree = "<group>"; };
+		D1682F9D0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchableTableViewController+SearchBarDelegate.h"; sourceTree = "<group>"; };
+		D1682F9E0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SearchableTableViewController+SearchBarDelegate.m"; sourceTree = "<group>"; };
+		D1682FCC0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchableTableViewController+AnimationsDelegate.h"; sourceTree = "<group>"; };
+		D1682FCD0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SearchableTableViewController+AnimationsDelegate.m"; sourceTree = "<group>"; };
+		D16831670E5A0F6C0071F5C2 /* SearchBarGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchBarGradient.png; sourceTree = "<group>"; };
+		D16831680E5A0F6C0071F5C2 /* ToolbarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarShadow.png; sourceTree = "<group>"; };
+		D168316D0E5A0FAE0071F5C2 /* BuyTicket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuyTicket.png; sourceTree = "<group>"; };
+		D168316E0E5A0FAE0071F5C2 /* MyTickets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyTickets.png; sourceTree = "<group>"; };
+		D168316F0E5A0FAE0071F5C2 /* Timetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timetable.png; sourceTree = "<group>"; };
+		D168D9590E7EF74F003F057C /* Arrival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrival.png; sourceTree = "<group>"; };
+		D168D95A0E7EF750003F057C /* Departure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Departure.png; sourceTree = "<group>"; };
+		D168D95B0E7EF750003F057C /* IntermediateArrival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IntermediateArrival.png; sourceTree = "<group>"; };
+		D168D95C0E7EF750003F057C /* IntermediateDeparture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IntermediateDeparture.png; sourceTree = "<group>"; };
+		D168D95D0E7EF750003F057C /* Track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Track.png; sourceTree = "<group>"; };
+		D168D95E0E7EF750003F057C /* TrackWithStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackWithStop.png; sourceTree = "<group>"; };
+		D168D9660E7EF823003F057C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DepartureCell.xib; sourceTree = "<group>"; };
+		D16A1A310E7FB3E300B0A2E8 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/TimetableDetailedView.plist; sourceTree = "<group>"; };
+		D16A1A330E7FB3E300B0A2E8 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/TimetableDetailedView2.plist; sourceTree = "<group>"; };
+		D16E5AA10E5820C8003754A1 /* AllStationsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllStationsDataSource.h; sourceTree = "<group>"; };
+		D16E5AA20E5820C8003754A1 /* AllStationsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllStationsDataSource.m; sourceTree = "<group>"; };
+		D16E5AA40E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketDeparturesAllStationsTableViewDelegate.h; sourceTree = "<group>"; };
+		D16E5AA50E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketDeparturesAllStationsTableViewDelegate.m; sourceTree = "<group>"; };
+		D16E5C7B0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketDeparturesTableViewController+SearchBarDelegate.h"; sourceTree = "<group>"; };
+		D16E5C7C0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketDeparturesTableViewController+SearchBarDelegate.m"; sourceTree = "<group>"; };
+		D16E6D950E85610000BE81AC /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D16EC2F80E7136790067BC99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyTicketsPage.xib; sourceTree = "<group>"; };
+		D16EC2FB0E7136D40067BC99 /* MyTicketsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTicketsPageViewController.h; sourceTree = "<group>"; };
+		D16EC2FC0E7136D40067BC99 /* MyTicketsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTicketsPageViewController.m; sourceTree = "<group>"; };
+		D174F2DC0E71093E00D05C0D /* TicketBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TicketBack.png; sourceTree = "<group>"; };
+		D179E9470E80EB5D006779D1 /* DetailedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewCell.h; sourceTree = "<group>"; };
+		D179E9480E80EB5D006779D1 /* DetailedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewCell.m; sourceTree = "<group>"; };
+		D179E97A0E80F5F8006779D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ArrivalCell.xib; sourceTree = "<group>"; };
+		D179E97D0E80F613006779D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackCell.xib; sourceTree = "<group>"; };
+		D179E9800E80F61E006779D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackWithStopCell.xib; sourceTree = "<group>"; };
+		D17FAEFB0E61B02200C1D53C /* NearbyStationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyStationCell.h; sourceTree = "<group>"; };
+		D17FAEFC0E61B02200C1D53C /* NearbyStationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyStationCell.m; sourceTree = "<group>"; };
+		D18352480E5968FD00BD2543 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchableTableView.xib; sourceTree = "<group>"; };
+		D18352550E596AA200BD2543 /* SearchableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchableTableViewController.h; sourceTree = "<group>"; };
+		D18352560E596AA200BD2543 /* SearchableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchableTableViewController.m; sourceTree = "<group>"; };
+		D183529C0E597CE800BD2543 /* SearchableTableViewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchableTableViewController+Events.h"; sourceTree = "<group>"; };
+		D183529D0E597CE800BD2543 /* SearchableTableViewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SearchableTableViewController+Events.m"; sourceTree = "<group>"; };
+		D1836DEA0E6578EA005BF4EB /* Stations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stations.h; path = Classes/Stations.h; sourceTree = "<group>"; };
+		D1836DEB0E6578EA005BF4EB /* Stations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stations.m; path = Classes/Stations.m; sourceTree = "<group>"; };
+		D1836DED0E6578F9005BF4EB /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Station.h; path = Classes/Station.h; sourceTree = "<group>"; };
+		D1836DEE0E6578F9005BF4EB /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Station.m; path = Classes/Station.m; sourceTree = "<group>"; };
+		D1836DEF0E6578F9005BF4EB /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = Classes/Ticket.h; sourceTree = "<group>"; };
+		D1836DF00E6578F9005BF4EB /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ticket.m; path = Classes/Ticket.m; sourceTree = "<group>"; };
+		D18BDA3B0E85088800555A43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D18BDABF0E85341500555A43 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = Classes/Connection.h; sourceTree = "<group>"; };
+		D18BDAC00E85341500555A43 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = Classes/Connection.m; sourceTree = "<group>"; };
+		D18BDAC20E85342400555A43 /* Connections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connections.h; path = Classes/Connections.h; sourceTree = "<group>"; };
+		D18BDAC30E85342400555A43 /* Connections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connections.m; path = Classes/Connections.m; sourceTree = "<group>"; };
+		D18BDAC50E85343500555A43 /* Connections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Connections.plist; path = Classes/Connections.plist; sourceTree = "<group>"; };
+		D190E9830E654947006944E8 /* BuyTicketNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketNavigationController.h; sourceTree = "<group>"; };
+		D190E9840E654947006944E8 /* BuyTicketNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketNavigationController.m; sourceTree = "<group>"; };
+		D1986A0A0E7AD3EE004166F6 /* TimetableCellBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCellBright.png; sourceTree = "<group>"; };
+		D1986A0B0E7AD3EE004166F6 /* TimetableCellDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCellDark.png; sourceTree = "<group>"; };
+		D1986A370E7ADF62004166F6 /* TimetableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableCell.h; sourceTree = "<group>"; };
+		D1986A380E7ADF62004166F6 /* TimetableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableCell.m; sourceTree = "<group>"; };
+		D1986A3F0E7AE062004166F6 /* TimetableOverviewController+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimetableOverviewController+DataSource.h"; sourceTree = "<group>"; };
+		D1986A400E7AE062004166F6 /* TimetableOverviewController+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TimetableOverviewController+DataSource.m"; sourceTree = "<group>"; };
+		D1986A420E7AE093004166F6 /* TimetableOverviewController+Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimetableOverviewController+Delegate.h"; sourceTree = "<group>"; };
+		D1986A430E7AE093004166F6 /* TimetableOverviewController+Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TimetableOverviewController+Delegate.m"; sourceTree = "<group>"; };
+		D1A1D1B40E5DEEB300910E94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NearbyStationCell.xib; sourceTree = "<group>"; };
+		D1A3B7170E631481003B666C /* iTicketTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTicketTabBarController.h; sourceTree = "<group>"; };
+		D1A3B7180E631481003B666C /* iTicketTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTicketTabBarController.m; sourceTree = "<group>"; };
+		D1A3B7E60E632AB4003B666C /* BuyTicketDestinationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketDestinationsTableViewController.h; sourceTree = "<group>"; };
+		D1A3B7E70E632AB4003B666C /* BuyTicketDestinationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketDestinationsTableViewController.m; sourceTree = "<group>"; };
+		D1A3B7EB0E632ACD003B666C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuyTicketDestinations.xib; sourceTree = "<group>"; };
+		D1A3B8000E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketFavoriteStationsTableViewDataSource.h; sourceTree = "<group>"; };
+		D1A3B8010E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketFavoriteStationsTableViewDataSource.m; sourceTree = "<group>"; };
+		D1A3B8030E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketDestinationsAllStationsTableViewDelegate.h; sourceTree = "<group>"; };
+		D1A3B8040E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketDestinationsAllStationsTableViewDelegate.m; sourceTree = "<group>"; };
+		D1A3B8060E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketDestinationsAllStationsTableSearchResultsDelegate.h; sourceTree = "<group>"; };
+		D1A3B8070E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m; sourceTree = "<group>"; };
+		D1A3B8090E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketFavoriteStationsTableViewDelegate.h; sourceTree = "<group>"; };
+		D1A3B80A0E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketFavoriteStationsTableViewDelegate.m; sourceTree = "<group>"; };
+		D1A3B83F0E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketDestinationsTableViewController+SearchBarDelegate.h"; sourceTree = "<group>"; };
+		D1A3B8400E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketDestinationsTableViewController+SearchBarDelegate.m"; sourceTree = "<group>"; };
+		D1A3B8420E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketDestinationsTableViewController+Events.h"; sourceTree = "<group>"; };
+		D1A3B8430E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketDestinationsTableViewController+Events.m"; sourceTree = "<group>"; };
+		D1A3B8450E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketDestinationsTableViewController+SearchResultsDataSource.h"; sourceTree = "<group>"; };
+		D1A3B8460E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketDestinationsTableViewController+SearchResultsDataSource.m"; sourceTree = "<group>"; };
+		D1B2995C0E76703200C09785 /* TimetableIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableIcon.png; sourceTree = "<group>"; };
+		D1B299650E76721800C09785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimetableOverview.xib; sourceTree = "<group>"; };
+		D1B2997C0E7672CE00C09785 /* TimetableOverviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableOverviewController.h; sourceTree = "<group>"; };
+		D1B2997D0E7672CE00C09785 /* TimetableOverviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableOverviewController.m; sourceTree = "<group>"; };
+		D1B490610E74315500B9C5F1 /* QrCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QrCode.png; sourceTree = "<group>"; };
+		D1B54CD80E69568F00B9C18C /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/BuyTicketOptions.plist; sourceTree = "<group>"; };
+		D1B54F650E6AAA0400B9C18C /* OneWay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OneWay.png; sourceTree = "<group>"; };
+		D1B54F660E6AAA0400B9C18C /* RoundTrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundTrip.png; sourceTree = "<group>"; };
+		D1BC118D0E7D00F0006CFCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimetableCellBright.xib; sourceTree = "<group>"; };
+		D1BC11990E7D01FC006CFCA1 /* TimetableCellBrightSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCellBrightSelected.png; sourceTree = "<group>"; };
+		D1BC119A0E7D01FC006CFCA1 /* TimetableCellDarkSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCellDarkSelected.png; sourceTree = "<group>"; };
+		D1BC119E0E7D0230006CFCA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimetableCellDark.xib; sourceTree = "<group>"; };
+		D1C03B920E790E47003EC75B /* TimetableOverviewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimetableOverviewController+Events.h"; sourceTree = "<group>"; };
+		D1C03B930E790E47003EC75B /* TimetableOverviewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TimetableOverviewController+Events.m"; sourceTree = "<group>"; };
+		D1C03C2C0E793D14003EC75B /* TimeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeButton.h; sourceTree = "<group>"; };
+		D1C03C2D0E793D14003EC75B /* TimeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeButton.m; sourceTree = "<group>"; };
+		D1C30E850E8181120030B6F9 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/TimetableDetailedView3.plist; sourceTree = "<group>"; };
+		D1C415DB0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketDeparturesAllStationsTableSearchResultsDelegate.h; sourceTree = "<group>"; };
+		D1C415DC0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m; sourceTree = "<group>"; };
+		D1CA47D10E72B18300F550D0 /* DeleteTicket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteTicket.png; sourceTree = "<group>"; };
+		D1CA47D20E72B18300F550D0 /* DeleteTicketPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteTicketPressed.png; sourceTree = "<group>"; };
+		D1CD49D10E62DCE0002BC5E1 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		D1D56F850E5D6F6900FD27CD /* UIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
+		D1D56F860E5D6F6900FD27CD /* UIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		D1D621260E6E7F3800C6327E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D1D621420E6E877300C6327E /* BuyTicketLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketLoginViewController.h; sourceTree = "<group>"; };
+		D1D621430E6E877300C6327E /* BuyTicketLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketLoginViewController.m; sourceTree = "<group>"; };
+		D1D6215B0E6E89F900C6327E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuyTicketLogin.xib; sourceTree = "<group>"; };
+		D1D6216C0E6E8D9D00C6327E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InputCell.xib; sourceTree = "<group>"; };
+		D1D621820E6E8F2F00C6327E /* InputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCell.h; sourceTree = "<group>"; };
+		D1D621830E6E8F2F00C6327E /* InputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCell.m; sourceTree = "<group>"; };
+		D1D982930E6D63F300BA4642 /* TranslucentButtonRedPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TranslucentButtonRedPressed.png; sourceTree = "<group>"; };
+		D1D982F90E6DB19D00BA4642 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D1E0DD260E6947010054F1A7 /* BuyTicketOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketOptionsTableViewController.h; sourceTree = "<group>"; };
+		D1E0DD270E6947010054F1A7 /* BuyTicketOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketOptionsTableViewController.m; sourceTree = "<group>"; };
+		D1E0DD2B0E6947E10054F1A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuyTicketOptions.xib; sourceTree = "<group>"; };
+		D1E0DD480E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketOptionsTableViewController+Events.h"; sourceTree = "<group>"; };
+		D1E0DD490E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketOptionsTableViewController+Events.m"; sourceTree = "<group>"; };
+		D1E7FD1C0E855A8F00856A2B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D1ED58DF0E5B40670092C86F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Stations.plist; sourceTree = "<group>"; };
+		D1F2D3110E6C1E9200E26693 /* Ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ticket.png; sourceTree = "<group>"; };
+		D1F2D3130E6C1F9700E26693 /* BackgroundGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundGradient.png; sourceTree = "<group>"; };
+		D1F2D3190E6C20D100E26693 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuyTicketCheckout.xib; sourceTree = "<group>"; };
+		D1F2D3230E6C228500E26693 /* BuyTicketCheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTicketCheckoutViewController.h; sourceTree = "<group>"; };
+		D1F2D3240E6C228500E26693 /* BuyTicketCheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTicketCheckoutViewController.m; sourceTree = "<group>"; };
+		D1F2D3850E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuyTicketCheckoutViewController+Events.h"; sourceTree = "<group>"; };
+		D1F2D3860E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BuyTicketCheckoutViewController+Events.m"; sourceTree = "<group>"; };
+		D1F2D3B10E6C3D0A00E26693 /* TranslucentButtonRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TranslucentButtonRed.png; sourceTree = "<group>"; };
+		D1F2D3B30E6C3D1D00E26693 /* TranslucentButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TranslucentButton.png; sourceTree = "<group>"; };
+		D1F5870B0E7D789B009301B7 /* TimetableCellBrightEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCellBrightEmpty.png; sourceTree = "<group>"; };
+		D1F5870C0E7D789B009301B7 /* TimetableCellBrightEmptySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCellBrightEmptySelected.png; sourceTree = "<group>"; };
+		D1F587100E7D78CE009301B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimetableCellBrightEmpty.xib; sourceTree = "<group>"; };
+		D1F5871D0E7D7A39009301B7 /* TimetableCellEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableCellEmpty.h; sourceTree = "<group>"; };
+		D1F5871E0E7D7A39009301B7 /* TimetableCellEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableCellEmpty.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				D1D982FA0E6DB19D00BA4642 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iTicketAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iTicketAppDelegate.m */,
+				D1A3B7170E631481003B666C /* iTicketTabBarController.h */,
+				D1A3B7180E631481003B666C /* iTicketTabBarController.m */,
+				D1D56F780E5D660900FD27CD /* User Interface */,
+				D19121FF0E5AB7D300DE5EE6 /* Data Model */,
+				D1D56F7A0E5D663A00FD27CD /* Sections */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iTicket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D16E5A850E581ADF003754A1 /* Images */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iTicket_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D16E6D940E85610000BE81AC /* Localizable.strings */,
+				D171E9200E714BA60012A50E /* Other */,
+				D133DC4F0E82E61F00939B4E /* 1-Tap */,
+				D1A3B7F30E632ADF003B666C /* Buy Ticket */,
+				D15765220E705BF3003A2629 /* My Tickets */,
+				D1B2996D0E76722600C09785 /* Timetable */,
+				D134482B0E669AF600927921 /* Plists */,
+				D1D621260E6E7F3800C6327E /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D982F90E6DB19D00BA4642 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D133DC4F0E82E61F00939B4E /* 1-Tap */ = {
+			isa = PBXGroup;
+			children = (
+				D133DC690E82E87500939B4E /* OneTapTickets.xib */,
+				D133DC6C0E82E8A200939B4E /* OneTapCell.xib */,
+			);
+			name = "1-Tap";
+			sourceTree = "<group>";
+		};
+		D133DC650E82E7C000939B4E /* 1-Tap */ = {
+			isa = PBXGroup;
+			children = (
+				D133DC660E82E7E500939B4E /* OneTapNavigationController.h */,
+				D133DC670E82E7E500939B4E /* OneTapNavigationController.m */,
+				D133DC730E82E96B00939B4E /* 1-Tap Tickets */,
+			);
+			name = "1-Tap";
+			sourceTree = "<group>";
+		};
+		D133DC730E82E96B00939B4E /* 1-Tap Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				D133DD080E82F44900939B4E /* User Interface */,
+				D133DD070E82F44100939B4E /* View Controller */,
+			);
+			name = "1-Tap Tickets";
+			sourceTree = "<group>";
+		};
+		D133DD070E82F44100939B4E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D133DC8F0E82E9FB00939B4E /* OneTapTicketsViewController.h */,
+				D133DC900E82E9FB00939B4E /* OneTapTicketsViewController.m */,
+				D133DD320E82F87E00939B4E /* OneTapTicketsViewController+DataSource.h */,
+				D133DD330E82F87E00939B4E /* OneTapTicketsViewController+DataSource.m */,
+				D133DD350E82F8A100939B4E /* OneTapTicketsViewController+Delegate.h */,
+				D133DD360E82F8A100939B4E /* OneTapTicketsViewController+Delegate.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D133DD080E82F44900939B4E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D133DD090E82F45800939B4E /* OneTapCell.h */,
+				D133DD0A0E82F45800939B4E /* OneTapCell.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D134482B0E669AF600927921 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDAC50E85343500555A43 /* Connections.plist */,
+				D16A1A300E7FB3E300B0A2E8 /* TimetableDetailedView.plist */,
+				D16A1A320E7FB3E300B0A2E8 /* TimetableDetailedView2.plist */,
+				D1C30E840E8181120030B6F9 /* TimetableDetailedView3.plist */,
+				D1B54CD70E69568F00B9C18C /* BuyTicketOptions.plist */,
+				D1ED58DE0E5B40670092C86F /* Stations.plist */,
+				D1CD49D10E62DCE0002BC5E1 /* Defaults.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		D13448620E66A18500927921 /* Add Favourite Station */ = {
+			isa = PBXGroup;
+			children = (
+				D13448E50E6702A800927921 /* View Controller */,
+				D13448FA0E67042E00927921 /* Delegates */,
+			);
+			name = "Add Favourite Station";
+			sourceTree = "<group>";
+		};
+		D13448E50E6702A800927921 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D13448630E66A2A800927921 /* AddFavoriteStationViewController.h */,
+				D13448640E66A2A800927921 /* AddFavoriteStationViewController.m */,
+				D13448680E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.h */,
+				D13448690E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.m */,
+				D13448E60E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.h */,
+				D13448E70E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.m */,
+				D13448FE0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.h */,
+				D13448FF0E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D13448FA0E67042E00927921 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D13448FB0E67048900927921 /* AddFavoriteStationDelegate.h */,
+				D13448FC0E67048900927921 /* AddFavoriteStationDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		D15765220E705BF3003A2629 /* My Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				D157651E0E705BEF003A2629 /* MyTickets.xib */,
+				D16EC2F70E7136790067BC99 /* MyTicketsPage.xib */,
+			);
+			name = "My Tickets";
+			sourceTree = "<group>";
+		};
+		D16E5A850E581ADF003754A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7FD1C0E855A8F00856A2B /* Icon.png */,
+				D18BDA3B0E85088800555A43 /* Default.png */,
+				D133DD240E82F72A00939B4E /* OneWayVertical.png */,
+				D133DD250E82F72A00939B4E /* RoundTripVertical.png */,
+				D11BFFD40E8253F10051174C /* 1Tap.png */,
+				D168D9590E7EF74F003F057C /* Arrival.png */,
+				D168D95A0E7EF750003F057C /* Departure.png */,
+				D168D95B0E7EF750003F057C /* IntermediateArrival.png */,
+				D168D95C0E7EF750003F057C /* IntermediateDeparture.png */,
+				D168D95D0E7EF750003F057C /* Track.png */,
+				D168D95E0E7EF750003F057C /* TrackWithStop.png */,
+				D1F5870B0E7D789B009301B7 /* TimetableCellBrightEmpty.png */,
+				D1F5870C0E7D789B009301B7 /* TimetableCellBrightEmptySelected.png */,
+				D1BC11990E7D01FC006CFCA1 /* TimetableCellBrightSelected.png */,
+				D1BC119A0E7D01FC006CFCA1 /* TimetableCellDarkSelected.png */,
+				D1986A0A0E7AD3EE004166F6 /* TimetableCellBright.png */,
+				D1986A0B0E7AD3EE004166F6 /* TimetableCellDark.png */,
+				D11288010E784A660043A898 /* TimeButton.png */,
+				D12AF0D80E77CEB7009B00F0 /* TimetableBackground.png */,
+				D1B2995C0E76703200C09785 /* TimetableIcon.png */,
+				D1B490610E74315500B9C5F1 /* QrCode.png */,
+				D1CA47D10E72B18300F550D0 /* DeleteTicket.png */,
+				D1CA47D20E72B18300F550D0 /* DeleteTicketPressed.png */,
+				D174F2DC0E71093E00D05C0D /* TicketBack.png */,
+				D1D982930E6D63F300BA4642 /* TranslucentButtonRedPressed.png */,
+				D162CF7A0E6C407300E86D8D /* TranslucentButtonPressed.png */,
+				D1F2D3B30E6C3D1D00E26693 /* TranslucentButton.png */,
+				D1F2D3B10E6C3D0A00E26693 /* TranslucentButtonRed.png */,
+				D1F2D3130E6C1F9700E26693 /* BackgroundGradient.png */,
+				D1F2D3110E6C1E9200E26693 /* Ticket.png */,
+				D1154BA50E6B078D00ACC78B /* FullFare.png */,
+				D1154B9B0E6B075800ACC78B /* HalfFare.png */,
+				D167C87B0E6ACF260070D3AD /* FirstClass.png */,
+				D167C87C0E6ACF260070D3AD /* SecondClass.png */,
+				D1B54F650E6AAA0400B9C18C /* OneWay.png */,
+				D1B54F660E6AAA0400B9C18C /* RoundTrip.png */,
+				D168316D0E5A0FAE0071F5C2 /* BuyTicket.png */,
+				D168316E0E5A0FAE0071F5C2 /* MyTickets.png */,
+				D168316F0E5A0FAE0071F5C2 /* Timetable.png */,
+				D16831670E5A0F6C0071F5C2 /* SearchBarGradient.png */,
+				D16831680E5A0F6C0071F5C2 /* ToolbarShadow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D16E5A9B0E581FE1003754A1 /* Buy Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				D190E9830E654947006944E8 /* BuyTicketNavigationController.h */,
+				D190E9840E654947006944E8 /* BuyTicketNavigationController.m */,
+				D16E5A9C0E581FEE003754A1 /* Departures */,
+				D1A3B7E20E632A67003B666C /* Destinations */,
+				D1E0DD210E6946C20054F1A7 /* Options */,
+				D1F2D3210E6C225F00E26693 /* Checkout */,
+			);
+			name = "Buy Ticket";
+			sourceTree = "<group>";
+		};
+		D16E5A9C0E581FEE003754A1 /* Departures */ = {
+			isa = PBXGroup;
+			children = (
+				D17FAEFE0E61B02A00C1D53C /* User Interface */,
+				D16E5A9F0E58200C003754A1 /* View Controller */,
+				D16E5A9E0E582006003754A1 /* Data Sources */,
+				D16E5A9D0E581FF8003754A1 /* Delegates */,
+			);
+			name = Departures;
+			sourceTree = "<group>";
+		};
+		D16E5A9D0E581FF8003754A1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D16E5AA40E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.h */,
+				D16E5AA50E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.m */,
+				D1C415DB0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.h */,
+				D1C415DC0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m */,
+				D10167C30E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.h */,
+				D10167C40E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		D16E5A9E0E582006003754A1 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D10167C60E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.h */,
+				D10167C70E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.m */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		D16E5A9F0E58200C003754A1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D15629FB0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.h */,
+				D15629FC0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.m */,
+				D16E5C7B0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.h */,
+				D16E5C7C0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.m */,
+				D101064D0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.h */,
+				D101064E0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.m */,
+				D10166710E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.h */,
+				D10166720E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D16E5AA00E582092003754A1 /* All Stations Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				D16E5AA10E5820C8003754A1 /* AllStationsDataSource.h */,
+				D16E5AA20E5820C8003754A1 /* AllStationsDataSource.m */,
+				D101655F0E5C1709009DFAFF /* StationsDataSourceProtocol.h */,
+			);
+			name = "All Stations Data Source";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D16EC2EA0E7130620067BC99 /* My Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				D12ED9390E71518D00E63218 /* MyTicketsViewController.h */,
+				D12ED9370E71518600E63218 /* MyTicketsViewController.m */,
+				D16EC2FB0E7136D40067BC99 /* MyTicketsPageViewController.h */,
+				D16EC2FC0E7136D40067BC99 /* MyTicketsPageViewController.m */,
+				D110F8130E72D23F00285F11 /* MyTicketsPageViewController+Events.h */,
+				D110F8140E72D23F00285F11 /* MyTicketsPageViewController+Events.m */,
+			);
+			name = "My Tickets";
+			sourceTree = "<group>";
+		};
+		D171E9200E714BA60012A50E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D18352470E5968FD00BD2543 /* SearchableTableView.xib */,
+				D15629BF0E5779EF00A0F1DF /* MainWindow.xib */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		D17FAEFE0E61B02A00C1D53C /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D17FAEFB0E61B02200C1D53C /* NearbyStationCell.h */,
+				D17FAEFC0E61B02200C1D53C /* NearbyStationCell.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D18352540E596A3500BD2543 /* Searchable Table View */ = {
+			isa = PBXGroup;
+			children = (
+				D10165970E5C28C7009DFAFF /* SearchResultsDataSourceProtocol.h */,
+				D18352550E596AA200BD2543 /* SearchableTableViewController.h */,
+				D18352560E596AA200BD2543 /* SearchableTableViewController.m */,
+				D183529C0E597CE800BD2543 /* SearchableTableViewController+Events.h */,
+				D183529D0E597CE800BD2543 /* SearchableTableViewController+Events.m */,
+				D1682F9D0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.h */,
+				D1682F9E0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.m */,
+				D1682FCC0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.h */,
+				D1682FCD0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.m */,
+			);
+			name = "Searchable Table View";
+			sourceTree = "<group>";
+		};
+		D19121FF0E5AB7D300DE5EE6 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				D19122010E5AB7F200DE5EE6 /* Types */,
+				D19122000E5AB7E000DE5EE6 /* Data Retrieval */,
+				D16E5AA00E582092003754A1 /* All Stations Data Source */,
+			);
+			name = "Data Model";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D19122000E5AB7E000DE5EE6 /* Data Retrieval */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDAC20E85342400555A43 /* Connections.h */,
+				D18BDAC30E85342400555A43 /* Connections.m */,
+				D1836DEA0E6578EA005BF4EB /* Stations.h */,
+				D1836DEB0E6578EA005BF4EB /* Stations.m */,
+			);
+			name = "Data Retrieval";
+			sourceTree = "<group>";
+		};
+		D19122010E5AB7F200DE5EE6 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				D18BDABF0E85341500555A43 /* Connection.h */,
+				D18BDAC00E85341500555A43 /* Connection.m */,
+				D1836DED0E6578F9005BF4EB /* Station.h */,
+				D1836DEE0E6578F9005BF4EB /* Station.m */,
+				D1836DEF0E6578F9005BF4EB /* Ticket.h */,
+				D1836DF00E6578F9005BF4EB /* Ticket.m */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		D1A3B7E20E632A67003B666C /* Destinations */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3B7E30E632A84003B666C /* View Controller */,
+				D1A3B7E40E632A8A003B666C /* Data Sources */,
+				D1A3B7E50E632A8F003B666C /* Delegates */,
+				D13448620E66A18500927921 /* Add Favourite Station */,
+			);
+			name = Destinations;
+			sourceTree = "<group>";
+		};
+		D1A3B7E30E632A84003B666C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3B7E60E632AB4003B666C /* BuyTicketDestinationsTableViewController.h */,
+				D1A3B7E70E632AB4003B666C /* BuyTicketDestinationsTableViewController.m */,
+				D1A3B83F0E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.h */,
+				D1A3B8400E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.m */,
+				D1A3B8420E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.h */,
+				D1A3B8430E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.m */,
+				D1A3B8450E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.h */,
+				D1A3B8460E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D1A3B7E40E632A8A003B666C /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3B8000E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.h */,
+				D1A3B8010E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.m */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		D1A3B7E50E632A8F003B666C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3B8030E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.h */,
+				D1A3B8040E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.m */,
+				D1A3B8060E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.h */,
+				D1A3B8070E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m */,
+				D1A3B8090E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.h */,
+				D1A3B80A0E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		D1A3B7F30E632ADF003B666C /* Buy Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				D15629CE0E577A5F00A0F1DF /* BuyTicketDepartures.xib */,
+				D1A1D1B30E5DEEB300910E94 /* NearbyStationCell.xib */,
+				D1A3B7EA0E632ACD003B666C /* BuyTicketDestinations.xib */,
+				D1E0DD2A0E6947E10054F1A7 /* BuyTicketOptions.xib */,
+				D1F2D3180E6C20D100E26693 /* BuyTicketCheckout.xib */,
+				D1D6215A0E6E89F900C6327E /* BuyTicketLogin.xib */,
+				D1D6216B0E6E8D9D00C6327E /* InputCell.xib */,
+			);
+			name = "Buy Ticket";
+			sourceTree = "<group>";
+		};
+		D1B2996D0E76722600C09785 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				D1CE77CF0E801E2F00CF1975 /* Overview */,
+				D1CE77D00E801E3600CF1975 /* Detailed View */,
+			);
+			name = Timetable;
+			sourceTree = "<group>";
+		};
+		D1B2997B0E7672B400C09785 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				D1C03C2A0E793CF8003EC75B /* User Interface */,
+				D1C03C2B0E793CFF003EC75B /* View Controllers */,
+			);
+			name = Timetable;
+			sourceTree = "<group>";
+		};
+		D1C03C2A0E793CF8003EC75B /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D1C03C2C0E793D14003EC75B /* TimeButton.h */,
+				D1C03C2D0E793D14003EC75B /* TimeButton.m */,
+				D1986A370E7ADF62004166F6 /* TimetableCell.h */,
+				D1986A380E7ADF62004166F6 /* TimetableCell.m */,
+				D1F5871D0E7D7A39009301B7 /* TimetableCellEmpty.h */,
+				D1F5871E0E7D7A39009301B7 /* TimetableCellEmpty.m */,
+				D179E9470E80EB5D006779D1 /* DetailedViewCell.h */,
+				D179E9480E80EB5D006779D1 /* DetailedViewCell.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D1C03C2B0E793CFF003EC75B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1B2997C0E7672CE00C09785 /* TimetableOverviewController.h */,
+				D1B2997D0E7672CE00C09785 /* TimetableOverviewController.m */,
+				D1C03B920E790E47003EC75B /* TimetableOverviewController+Events.h */,
+				D1C03B930E790E47003EC75B /* TimetableOverviewController+Events.m */,
+				D1986A3F0E7AE062004166F6 /* TimetableOverviewController+DataSource.h */,
+				D1986A400E7AE062004166F6 /* TimetableOverviewController+DataSource.m */,
+				D1986A420E7AE093004166F6 /* TimetableOverviewController+Delegate.h */,
+				D1986A430E7AE093004166F6 /* TimetableOverviewController+Delegate.m */,
+				D16705200E7F995B008FB22E /* TimetableDetailedViewController.h */,
+				D16705210E7F995B008FB22E /* TimetableDetailedViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D1CE77CF0E801E2F00CF1975 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				D1BC118C0E7D00F0006CFCA1 /* TimetableCellBright.xib */,
+				D1BC119D0E7D0230006CFCA1 /* TimetableCellDark.xib */,
+				D1F5870F0E7D78CE009301B7 /* TimetableCellBrightEmpty.xib */,
+				D1B299640E76721800C09785 /* TimetableOverview.xib */,
+			);
+			name = Overview;
+			sourceTree = "<group>";
+		};
+		D1CE77D00E801E3600CF1975 /* Detailed View */ = {
+			isa = PBXGroup;
+			children = (
+				D16705230E7F99BF008FB22E /* TimetableDetailed.xib */,
+				D168D9650E7EF823003F057C /* DepartureCell.xib */,
+				D179E9790E80F5F8006779D1 /* ArrivalCell.xib */,
+				D179E97C0E80F613006779D1 /* TrackCell.xib */,
+				D179E97F0E80F61E006779D1 /* TrackWithStopCell.xib */,
+			);
+			name = "Detailed View";
+			sourceTree = "<group>";
+		};
+		D1D56F780E5D660900FD27CD /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D1D56F7B0E5D665A00FD27CD /* UI Factory */,
+				D18352540E596A3500BD2543 /* Searchable Table View */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D1D56F7A0E5D663A00FD27CD /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				D133DC650E82E7C000939B4E /* 1-Tap */,
+				D16E5A9B0E581FE1003754A1 /* Buy Ticket */,
+				D16EC2EA0E7130620067BC99 /* My Tickets */,
+				D1B2997B0E7672B400C09785 /* Timetable */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		D1D56F7B0E5D665A00FD27CD /* UI Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D1D56F850E5D6F6900FD27CD /* UIFactory.h */,
+				D1D56F860E5D6F6900FD27CD /* UIFactory.m */,
+			);
+			name = "UI Factory";
+			sourceTree = "<group>";
+		};
+		D1D621810E6E8F2000C6327E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D1D621820E6E8F2F00C6327E /* InputCell.h */,
+				D1D621830E6E8F2F00C6327E /* InputCell.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D1E0DD210E6946C20054F1A7 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				D1E0DD220E6946D30054F1A7 /* View Controller */,
+			);
+			name = Options;
+			sourceTree = "<group>";
+		};
+		D1E0DD220E6946D30054F1A7 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1E0DD260E6947010054F1A7 /* BuyTicketOptionsTableViewController.h */,
+				D1E0DD270E6947010054F1A7 /* BuyTicketOptionsTableViewController.m */,
+				D1E0DD480E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.h */,
+				D1E0DD490E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D1F2D3210E6C225F00E26693 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				D1D621810E6E8F2000C6327E /* User Interface */,
+				D1F2D3220E6C226B00E26693 /* View Controller */,
+			);
+			name = Checkout;
+			sourceTree = "<group>";
+		};
+		D1F2D3220E6C226B00E26693 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1F2D3230E6C228500E26693 /* BuyTicketCheckoutViewController.h */,
+				D1F2D3240E6C228500E26693 /* BuyTicketCheckoutViewController.m */,
+				D1F2D3850E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.h */,
+				D1F2D3860E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.m */,
+				D1D621420E6E877300C6327E /* BuyTicketLoginViewController.h */,
+				D1D621430E6E877300C6327E /* BuyTicketLoginViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTicket" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTicket;
+			productName = iTicket;
+			productReference = 1D6058910D05DD3D006BFB54 /* iTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iTicket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15629C10E5779EF00A0F1DF /* MainWindow.xib in Resources */,
+				D15629D00E577A5F00A0F1DF /* BuyTicketDepartures.xib in Resources */,
+				D18352490E5968FD00BD2543 /* SearchableTableView.xib in Resources */,
+				D16831690E5A0F6C0071F5C2 /* SearchBarGradient.png in Resources */,
+				D168316A0E5A0F6C0071F5C2 /* ToolbarShadow.png in Resources */,
+				D16831710E5A0FAE0071F5C2 /* BuyTicket.png in Resources */,
+				D16831720E5A0FAE0071F5C2 /* MyTickets.png in Resources */,
+				D16831730E5A0FAE0071F5C2 /* Timetable.png in Resources */,
+				D1ED58E00E5B40670092C86F /* Stations.plist in Resources */,
+				D1A1D1B50E5DEEB300910E94 /* NearbyStationCell.xib in Resources */,
+				D1CD49D20E62DCE0002BC5E1 /* Defaults.plist in Resources */,
+				D1A3B7EC0E632ACD003B666C /* BuyTicketDestinations.xib in Resources */,
+				D1E0DD2C0E6947E10054F1A7 /* BuyTicketOptions.xib in Resources */,
+				D1B54CD90E69568F00B9C18C /* BuyTicketOptions.plist in Resources */,
+				D1B54F670E6AAA0400B9C18C /* OneWay.png in Resources */,
+				D1B54F680E6AAA0400B9C18C /* RoundTrip.png in Resources */,
+				D167C87D0E6ACF260070D3AD /* FirstClass.png in Resources */,
+				D167C87E0E6ACF260070D3AD /* SecondClass.png in Resources */,
+				D1154B9D0E6B075800ACC78B /* HalfFare.png in Resources */,
+				D1154BA60E6B078D00ACC78B /* FullFare.png in Resources */,
+				D1F2D3120E6C1E9200E26693 /* Ticket.png in Resources */,
+				D1F2D3140E6C1F9700E26693 /* BackgroundGradient.png in Resources */,
+				D1F2D31A0E6C20D100E26693 /* BuyTicketCheckout.xib in Resources */,
+				D1F2D3B20E6C3D0A00E26693 /* TranslucentButtonRed.png in Resources */,
+				D1F2D3B40E6C3D1D00E26693 /* TranslucentButton.png in Resources */,
+				D162CF7B0E6C407300E86D8D /* TranslucentButtonPressed.png in Resources */,
+				D1D982940E6D63F300BA4642 /* TranslucentButtonRedPressed.png in Resources */,
+				D1D621270E6E7F3800C6327E /* Settings.bundle in Resources */,
+				D1D6215C0E6E89F900C6327E /* BuyTicketLogin.xib in Resources */,
+				D1D6216D0E6E8D9D00C6327E /* InputCell.xib in Resources */,
+				D15765200E705BEF003A2629 /* MyTickets.xib in Resources */,
+				D174F2DD0E71093E00D05C0D /* TicketBack.png in Resources */,
+				D16EC2F90E7136790067BC99 /* MyTicketsPage.xib in Resources */,
+				D1CA47D30E72B18300F550D0 /* DeleteTicket.png in Resources */,
+				D1CA47D40E72B18300F550D0 /* DeleteTicketPressed.png in Resources */,
+				D1B490620E74315500B9C5F1 /* QrCode.png in Resources */,
+				D1B2995E0E76703200C09785 /* TimetableIcon.png in Resources */,
+				D1B299660E76721800C09785 /* TimetableOverview.xib in Resources */,
+				D12AF0D90E77CEB7009B00F0 /* TimetableBackground.png in Resources */,
+				D11288030E784A660043A898 /* TimeButton.png in Resources */,
+				D1986A0C0E7AD3EE004166F6 /* TimetableCellBright.png in Resources */,
+				D1986A0D0E7AD3EE004166F6 /* TimetableCellDark.png in Resources */,
+				D1BC118E0E7D00F0006CFCA1 /* TimetableCellBright.xib in Resources */,
+				D1BC119B0E7D01FC006CFCA1 /* TimetableCellBrightSelected.png in Resources */,
+				D1BC119C0E7D01FC006CFCA1 /* TimetableCellDarkSelected.png in Resources */,
+				D1BC119F0E7D0230006CFCA1 /* TimetableCellDark.xib in Resources */,
+				D1F5870D0E7D789B009301B7 /* TimetableCellBrightEmpty.png in Resources */,
+				D1F5870E0E7D789B009301B7 /* TimetableCellBrightEmptySelected.png in Resources */,
+				D1F587110E7D78CE009301B7 /* TimetableCellBrightEmpty.xib in Resources */,
+				D168D95F0E7EF750003F057C /* Arrival.png in Resources */,
+				D168D9600E7EF750003F057C /* Departure.png in Resources */,
+				D168D9610E7EF750003F057C /* IntermediateArrival.png in Resources */,
+				D168D9620E7EF750003F057C /* IntermediateDeparture.png in Resources */,
+				D168D9630E7EF750003F057C /* Track.png in Resources */,
+				D168D9640E7EF750003F057C /* TrackWithStop.png in Resources */,
+				D168D9670E7EF823003F057C /* DepartureCell.xib in Resources */,
+				D16705250E7F99BF008FB22E /* TimetableDetailed.xib in Resources */,
+				D16A1A360E7FB3E300B0A2E8 /* TimetableDetailedView.plist in Resources */,
+				D16A1A370E7FB3E300B0A2E8 /* TimetableDetailedView2.plist in Resources */,
+				D179E97B0E80F5F8006779D1 /* ArrivalCell.xib in Resources */,
+				D179E97E0E80F613006779D1 /* TrackCell.xib in Resources */,
+				D179E9810E80F61E006779D1 /* TrackWithStopCell.xib in Resources */,
+				D1C30E860E8181120030B6F9 /* TimetableDetailedView3.plist in Resources */,
+				D11BFFD50E8253F10051174C /* 1Tap.png in Resources */,
+				D133DC6B0E82E87500939B4E /* OneTapTickets.xib in Resources */,
+				D133DC6E0E82E8A200939B4E /* OneTapCell.xib in Resources */,
+				D133DD260E82F72A00939B4E /* OneWayVertical.png in Resources */,
+				D133DD270E82F72A00939B4E /* RoundTripVertical.png in Resources */,
+				D18BDA3E0E85088800555A43 /* Default.png in Resources */,
+				D18BDAC60E85343500555A43 /* Connections.plist in Resources */,
+				D1E7FD1D0E855A8F00856A2B /* Icon.png in Resources */,
+				D16E6D960E85610000BE81AC /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iTicketAppDelegate.m in Sources */,
+				D15629FD0E577C8200A0F1DF /* BuyTicketDeparturesTableViewController.m in Sources */,
+				D16E5AA30E5820C8003754A1 /* AllStationsDataSource.m in Sources */,
+				D16E5AA60E582251003754A1 /* BuyTicketDeparturesAllStationsTableViewDelegate.m in Sources */,
+				D16E5C7D0E58886B003754A1 /* BuyTicketDeparturesTableViewController+SearchBarDelegate.m in Sources */,
+				D101064F0E58A9D900377992 /* BuyTicketDeparturesTableViewController+Events.m in Sources */,
+				D18352570E596AA200BD2543 /* SearchableTableViewController.m in Sources */,
+				D183529E0E597CE800BD2543 /* SearchableTableViewController+Events.m in Sources */,
+				D1682F9F0E59DD640071F5C2 /* SearchableTableViewController+SearchBarDelegate.m in Sources */,
+				D1682FCE0E59EAAA0071F5C2 /* SearchableTableViewController+AnimationsDelegate.m in Sources */,
+				D1C415DD0E5B6DE7008535FE /* BuyTicketDeparturesAllStationsTableSearchResultsDelegate.m in Sources */,
+				D10166730E5C39F8009DFAFF /* BuyTicketDeparturesTableViewController+SearchResultsDataSource.m in Sources */,
+				D10167C50E5CAC1A009DFAFF /* BuyTicketNearbyStationsTableViewDelegate.m in Sources */,
+				D10167C80E5CAF1F009DFAFF /* BuyTicketNearbyStationsTableViewDataSource.m in Sources */,
+				D1D56F870E5D6F6900FD27CD /* UIFactory.m in Sources */,
+				D17FAEFD0E61B02200C1D53C /* NearbyStationCell.m in Sources */,
+				D1A3B7190E631481003B666C /* iTicketTabBarController.m in Sources */,
+				D1A3B7E80E632AB4003B666C /* BuyTicketDestinationsTableViewController.m in Sources */,
+				D1A3B8020E632C22003B666C /* BuyTicketFavoriteStationsTableViewDataSource.m in Sources */,
+				D1A3B8050E632C3B003B666C /* BuyTicketDestinationsAllStationsTableViewDelegate.m in Sources */,
+				D1A3B8080E632C57003B666C /* BuyTicketDestinationsAllStationsTableSearchResultsDelegate.m in Sources */,
+				D1A3B80B0E632C86003B666C /* BuyTicketFavoriteStationsTableViewDelegate.m in Sources */,
+				D1A3B8410E633E98003B666C /* BuyTicketDestinationsTableViewController+SearchBarDelegate.m in Sources */,
+				D1A3B8440E63409E003B666C /* BuyTicketDestinationsTableViewController+Events.m in Sources */,
+				D1A3B8470E6340E9003B666C /* BuyTicketDestinationsTableViewController+SearchResultsDataSource.m in Sources */,
+				D190E9850E654947006944E8 /* BuyTicketNavigationController.m in Sources */,
+				D1836DEC0E6578EA005BF4EB /* Stations.m in Sources */,
+				D1836DF10E6578F9005BF4EB /* Station.m in Sources */,
+				D1836DF20E6578F9005BF4EB /* Ticket.m in Sources */,
+				D13448650E66A2A800927921 /* AddFavoriteStationViewController.m in Sources */,
+				D134486A0E66A32000927921 /* AddFavoriteStationViewController+SearchBarDelegate.m in Sources */,
+				D13448E80E6702D700927921 /* AddFavoriteStationViewController+SearchResultsDataSource.m in Sources */,
+				D13448FD0E67048900927921 /* AddFavoriteStationDelegate.m in Sources */,
+				D13449000E6704C400927921 /* AddFavoriteStationViewController+SearchResultsDelegate.m in Sources */,
+				D1E0DD280E6947010054F1A7 /* BuyTicketOptionsTableViewController.m in Sources */,
+				D1E0DD4A0E694A1C0054F1A7 /* BuyTicketOptionsTableViewController+Events.m in Sources */,
+				D1F2D3250E6C228500E26693 /* BuyTicketCheckoutViewController.m in Sources */,
+				D1F2D3870E6C367B00E26693 /* BuyTicketCheckoutViewController+Events.m in Sources */,
+				D1D621440E6E877300C6327E /* BuyTicketLoginViewController.m in Sources */,
+				D1D621840E6E8F2F00C6327E /* InputCell.m in Sources */,
+				D16EC2FD0E7136D40067BC99 /* MyTicketsPageViewController.m in Sources */,
+				D12ED9380E71518600E63218 /* MyTicketsViewController.m in Sources */,
+				D110F8150E72D23F00285F11 /* MyTicketsPageViewController+Events.m in Sources */,
+				D1B2997E0E7672CE00C09785 /* TimetableOverviewController.m in Sources */,
+				D1C03B940E790E47003EC75B /* TimetableOverviewController+Events.m in Sources */,
+				D1C03C2E0E793D14003EC75B /* TimeButton.m in Sources */,
+				D1986A390E7ADF62004166F6 /* TimetableCell.m in Sources */,
+				D1986A410E7AE062004166F6 /* TimetableOverviewController+DataSource.m in Sources */,
+				D1986A440E7AE093004166F6 /* TimetableOverviewController+Delegate.m in Sources */,
+				D1F5871F0E7D7A39009301B7 /* TimetableCellEmpty.m in Sources */,
+				D16705220E7F995B008FB22E /* TimetableDetailedViewController.m in Sources */,
+				D179E9490E80EB5D006779D1 /* DetailedViewCell.m in Sources */,
+				D133DC680E82E7E500939B4E /* OneTapNavigationController.m in Sources */,
+				D133DC910E82E9FB00939B4E /* OneTapTicketsViewController.m in Sources */,
+				D133DD0B0E82F45800939B4E /* OneTapCell.m in Sources */,
+				D133DD340E82F87E00939B4E /* OneTapTicketsViewController+DataSource.m in Sources */,
+				D133DD370E82F8A100939B4E /* OneTapTicketsViewController+Delegate.m in Sources */,
+				D18BDAC10E85341500555A43 /* Connection.m in Sources */,
+				D18BDAC40E85342400555A43 /* Connections.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D133DC690E82E87500939B4E /* OneTapTickets.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D133DC6A0E82E87500939B4E /* en */,
+			);
+			name = OneTapTickets.xib;
+			sourceTree = "<group>";
+		};
+		D133DC6C0E82E8A200939B4E /* OneTapCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D133DC6D0E82E8A200939B4E /* en */,
+			);
+			name = OneTapCell.xib;
+			sourceTree = "<group>";
+		};
+		D15629BF0E5779EF00A0F1DF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15629C00E5779EF00A0F1DF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D15629CE0E577A5F00A0F1DF /* BuyTicketDepartures.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15629CF0E577A5F00A0F1DF /* en */,
+			);
+			name = BuyTicketDepartures.xib;
+			sourceTree = "<group>";
+		};
+		D157651E0E705BEF003A2629 /* MyTickets.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D157651F0E705BEF003A2629 /* en */,
+			);
+			name = MyTickets.xib;
+			sourceTree = "<group>";
+		};
+		D16705230E7F99BF008FB22E /* TimetableDetailed.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16705240E7F99BF008FB22E /* en */,
+			);
+			name = TimetableDetailed.xib;
+			sourceTree = "<group>";
+		};
+		D168D9650E7EF823003F057C /* DepartureCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D168D9660E7EF823003F057C /* en */,
+			);
+			name = DepartureCell.xib;
+			sourceTree = "<group>";
+		};
+		D16A1A300E7FB3E300B0A2E8 /* TimetableDetailedView.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16A1A310E7FB3E300B0A2E8 /* en */,
+			);
+			name = TimetableDetailedView.plist;
+			sourceTree = "<group>";
+		};
+		D16A1A320E7FB3E300B0A2E8 /* TimetableDetailedView2.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16A1A330E7FB3E300B0A2E8 /* en */,
+			);
+			name = TimetableDetailedView2.plist;
+			sourceTree = "<group>";
+		};
+		D16E6D940E85610000BE81AC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16E6D950E85610000BE81AC /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D16EC2F70E7136790067BC99 /* MyTicketsPage.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16EC2F80E7136790067BC99 /* en */,
+			);
+			name = MyTicketsPage.xib;
+			sourceTree = "<group>";
+		};
+		D179E9790E80F5F8006779D1 /* ArrivalCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D179E97A0E80F5F8006779D1 /* en */,
+			);
+			name = ArrivalCell.xib;
+			sourceTree = "<group>";
+		};
+		D179E97C0E80F613006779D1 /* TrackCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D179E97D0E80F613006779D1 /* en */,
+			);
+			name = TrackCell.xib;
+			sourceTree = "<group>";
+		};
+		D179E97F0E80F61E006779D1 /* TrackWithStopCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D179E9800E80F61E006779D1 /* en */,
+			);
+			name = TrackWithStopCell.xib;
+			sourceTree = "<group>";
+		};
+		D18352470E5968FD00BD2543 /* SearchableTableView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18352480E5968FD00BD2543 /* en */,
+			);
+			name = SearchableTableView.xib;
+			sourceTree = "<group>";
+		};
+		D1A1D1B30E5DEEB300910E94 /* NearbyStationCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A1D1B40E5DEEB300910E94 /* en */,
+			);
+			name = NearbyStationCell.xib;
+			sourceTree = "<group>";
+		};
+		D1A3B7EA0E632ACD003B666C /* BuyTicketDestinations.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A3B7EB0E632ACD003B666C /* en */,
+			);
+			name = BuyTicketDestinations.xib;
+			sourceTree = "<group>";
+		};
+		D1B299640E76721800C09785 /* TimetableOverview.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B299650E76721800C09785 /* en */,
+			);
+			name = TimetableOverview.xib;
+			sourceTree = "<group>";
+		};
+		D1B54CD70E69568F00B9C18C /* BuyTicketOptions.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B54CD80E69568F00B9C18C /* en */,
+			);
+			name = BuyTicketOptions.plist;
+			sourceTree = "<group>";
+		};
+		D1BC118C0E7D00F0006CFCA1 /* TimetableCellBright.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BC118D0E7D00F0006CFCA1 /* en */,
+			);
+			name = TimetableCellBright.xib;
+			sourceTree = "<group>";
+		};
+		D1BC119D0E7D0230006CFCA1 /* TimetableCellDark.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BC119E0E7D0230006CFCA1 /* en */,
+			);
+			name = TimetableCellDark.xib;
+			sourceTree = "<group>";
+		};
+		D1C30E840E8181120030B6F9 /* TimetableDetailedView3.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C30E850E8181120030B6F9 /* en */,
+			);
+			name = TimetableDetailedView3.plist;
+			sourceTree = "<group>";
+		};
+		D1D6215A0E6E89F900C6327E /* BuyTicketLogin.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D6215B0E6E89F900C6327E /* en */,
+			);
+			name = BuyTicketLogin.xib;
+			sourceTree = "<group>";
+		};
+		D1D6216B0E6E8D9D00C6327E /* InputCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D6216C0E6E8D9D00C6327E /* en */,
+			);
+			name = InputCell.xib;
+			sourceTree = "<group>";
+		};
+		D1E0DD2A0E6947E10054F1A7 /* BuyTicketOptions.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E0DD2B0E6947E10054F1A7 /* en */,
+			);
+			name = BuyTicketOptions.xib;
+			sourceTree = "<group>";
+		};
+		D1ED58DE0E5B40670092C86F /* Stations.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1ED58DF0E5B40670092C86F /* en */,
+			);
+			name = Stations.plist;
+			sourceTree = "<group>";
+		};
+		D1F2D3180E6C20D100E26693 /* BuyTicketCheckout.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F2D3190E6C20D100E26693 /* en */,
+			);
+			name = BuyTicketCheckout.xib;
+			sourceTree = "<group>";
+		};
+		D1F5870F0E7D78CE009301B7 /* TimetableCellBrightEmpty.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F587100E7D78CE009301B7 /* en */,
+			);
+			name = TimetableCellBrightEmpty.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matteo Cortonesi";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTicket_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iTicket;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTicket_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iTicket;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matteo Cortonesi";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
